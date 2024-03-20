@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Kafka",
+    "path": "Nihility",
+    "imagePath": "lib/images/kafka.png",
+    "element": "Lighting",
+    "elementImage": "lib/images/thunder.png",
+    "pathImage": "lib/images/nil.png"
+  },
+  {
+    "name": "Black Swan",
+    "path": "Nihility",
+    "imagePath": "lib/images/blackswan.png",
+    "element": "Wind",
+    "elementImage": "lib/images/wind.png",
+    "pathImage": "lib/images/nil.png"
+  },
+  {
+    "name": "Ruan Mei",
+    "path": "Harmony",
+    "imagePath": "lib/images/ruanmei.png",
+    "element": "Ice",
+    "elementImage": "lib/images/ice.png",
+    "pathImage": "lib/images/harm.png"
+  },
+  {
+    "name": "Argenti",
+    "path": "Erudition",
+    "imagePath": "lib/images/characters/Argenti.png",
+    "element": "Physical",
+    "elementImage": "lib/images/physical.png",
+    "pathImage": "lib/images/era.png"
+  },
+  {
+    "name": "Arlan",
+    "path": "Destruction",
+    "imagePath": "lib/images/characters/Arlan.png",
+    "element": "Lightning",
+    "elementImage": "lib/images/thunder.png",
+    "pathImage": "lib/images/dest.png"
+  },
+  {
+    "name": "Asta",
+    "path": "Harmony",
+    "imagePath": "lib/images/characters/Asta.png",
+    "element": "Fire",
+    "elementImage": "lib/images/fire.png",
+    "pathImage": "lib/images/harm.png"
+  },
+  {
+    "name": "Bailu",
+    "path": "Abundance",
+    "imagePath": "lib/images/characters/Bailu.png",
+    "element": "Lighting",
+    "elementImage": "lib/images/thunder.png",
+    "pathImage": "lib/images/abun.png"
+  },
+  {
+    "name": "Blade",
+    "path": "Destruction",
+    "imagePath": "lib/images/characters/Blade.png",
+    "element": "Wind",
+    "elementImage": "lib/images/wind.png",
+    "pathImage": "lib/images/dest.png"
+  },
+  {
+    "name": "Bronya",
+    "path": "Harmony",
+    "imagePath": "lib/images/characters/Bronya.png",
+    "element": "Wind",
+    "elementImage": "lib/images/wind.png",
+    "pathImage": "lib/images/harm.png"
+  },
+  {
+    "name": "Clara",
+    "path": "Destruction",
+    "imagePath": "lib/images/characters/Clara.png",
+    "element": "Physical",
+    "elementImage": "lib/images/physical.png",
+    "pathImage": "lib/images/dest.png"
+  },
+  {
+    "name": "Dang Heng",
+    "path": "Hunt",
+    "imagePath": "lib/images/characters/Dan Heng.png",
+    "element": "Wind",
+    "elementImage": "lib/images/wind.png",
+    "pathImage": "lib/images/hunt.png"
+  },
+  {
+    "name": "Dang Heng-Imbibitor Lunae",
+    "path": "Destruction",
+    "imagePath": "lib/images/characters/Dan Heng - Imbibitor Lunae.png",
+    "element": "Imaginary",
+    "elementImage": "lib/images/imaginary.png",
+    "pathImage": "lib/images/dest.png"
+  },
+  {
+    "name": "Dr.Ratio",
+    "path": "Hunt",
+    "imagePath": "lib/images/characters/Dr. Ratio.png",
+    "element": "Imaginary",
+    "elementImage": "lib/images/imaginary.png",
+    "pathImage": "lib/images/hunt.png"
+  },
+  {
+    "name": "Fu Xuan",
+    "path": "Preservation",
+    "imagePath": "lib/images/characters/FuXuan.png",
+    "element": "Quantum",
+    "elementImage": "lib/images/quantum.png",
+    "pathImage": "lib/images/per.png"
+  },
+  {
+    "name": "Gepard",
+    "path": "Preservation",
+    "imagePath": "lib/images/characters/Gepard.png",
+    "element": "Ice",
+    "elementImage": "lib/images/ice.png",
+    "pathImage": "lib/images/per.png"
+  },
+  {
+    "name": "Guinaifen",
+    "path": "Nihility",
+    "imagePath": "lib/images/characters/Guinaifen.png",
+    "element": "Fire",
+    "elementImage": "lib/images/fire.png",
+    "pathImage": "lib/images/nil.png"
+  },
+  {
+    "name": "Hanya",
+    "path": "Harmony",
+    "imagePath": "lib/images/characters/Hanya.png",
+    "element": "Physical",
+    "elementImage": "lib/images/physical.png",
+    "pathImage": "lib/images/harm.png"
+  },
+  {
+    "name": "Herta",
+    "path": "Erudition",
+    "imagePath": "lib/images/blackswan.png",
+    "element": "Ice",
+    "elementImage": "lib/images/ice.png",
+    "pathImage": "lib/images/era.png"
+  },
+  {
+    "name": "Himeko",
+    "path": "Erudition",
+    "imagePath": "lib/images/characters/Himeko.png",
+    "element": "Fire",
+    "elementImage": "lib/images/fire.png",
+    "pathImage": "lib/images/era.png"
+  },
+  {
+    "name": "Hook",
+    "path": "Destruction",
+    "imagePath": "lib/images/characters/Hook.png",
+    "element": "Fire",
+    "elementImage": "lib/images/fire.png",
+    "pathImage": "lib/images/dest.png"
+  },
+  {
+    "name": "Huohuo",
+    "path": "Abundance",
+    "imagePath": "lib/images/characters/Huohuo.png",
+    "element": "Wind",
+    "elementImage": "lib/images/wind.png",
+    "pathImage": "lib/images/abun.png"
+  },
+  {
+    "name": "Jing Yuan",
+    "path": "Erudition",
+    "imagePath": "lib/images/characters/Jing Yuan.png",
+    "element": "Ice",
+    "elementImage": "lib/images/thunder.png",
+    "pathImage": "lib/images/era.png"
+  },
+  {
+    "name": "Jingliu",
+    "path": "Destruction",
+    "imagePath": "lib/images/characters/Jingliu.png",
+    "element": "Ice",
+    "elementImage": "lib/images/ice.png",
+    "pathImage": "lib/images/dest.png"
+  },
+  {
+    "name": "Luka",
+    "path": "Nihility",
+    "imagePath": "lib/images/characters/Luka.png",
+    "element": "Physical",
+    "elementImage": "lib/images/physical.png",
+    "pathImage": "lib/images/nil.png"
+  },
+  {
+    "name": "Luocha",
+    "path": "Abundance",
+    "imagePath": "lib/images/characters/Luocha.png",
+    "element": "Imaginary",
+    "elementImage": "lib/images/imaginary.png",
+    "pathImage": "lib/images/abun.png"
+  },
+  {
+    "name": "Lynx",
+    "path": "Abundance",
+    "imagePath": "lib/images/characters/Lynx.png",
+    "element": "Quantum",
+    "elementImage": "lib/images/quantum.png",
+    "pathImage": "lib/images/abun.png"
+  },
+  {
+    "name": "March 7th",
+    "path": "Preservation",
+    "imagePath": "lib/images/characters/March 7th.png",
+    "element": "Ice",
+    "elementImage": "lib/images/ice.png",
+    "pathImage": "lib/images/per.png"
+  },
+  {
+    "name": "Misha",
+    "path": "Destruction",
+    "imagePath": "lib/images/characters/Misha.png",
+    "element": "Ice",
+    "elementImage": "lib/images/ice.png",
+    "pathImage": "lib/images/dest.png"
+  },
+  {
+    "name": "Natasha",
+    "path": "Abundance",
+    "imagePath": "lib/images/characters/Natasha.png",
+    "element": "Physical",
+    "elementImage": "lib/images/physical.png",
+    "pathImage": "lib/images/abun.png"
+  },
+  {
+    "name": "Pela",
+    "path": "Nihility",
+    "imagePath": "lib/images/characters/Pela.png",
+    "element": "Ice",
+    "elementImage": "lib/images/ice.png",
+    "pathImage": "lib/images/nil.png"
+  },
+  {
+    "name": "Qingque",
+    "path": "Erudition",
+    "imagePath": "lib/images/characters/QingQue.png",
+    "element": "Quantum",
+    "elementImage": "lib/images/quantum.png",
+    "pathImage": "lib/images/era.png"
+  },
+  {
+    "name": "Sampo",
+    "path": "Nihility",
+    "imagePath": "lib/images/characters/Sampo.png",
+    "element": "Wind",
+    "elementImage": "lib/images/wind.png",
+    "pathImage": "lib/images/nil.png"
+  },
+  {
+    "name": "Seele",
+    "path": "Hunt",
+    "imagePath": "lib/images/characters/Seele.png",
+    "element": "Quantum",
+    "elementImage": "lib/images/quantum.png",
+    "pathImage": "lib/images/hunt.png"
+  },
+  {
+    "name": "Serval",
+    "path": "Erudition",
+    "imagePath": "lib/images/characters/Serval.png",
+    "element": "Lightning",
+    "elementImage": "lib/images/thunder.png",
+    "pathImage": "lib/images/era.png"
+  },
+  {
+    "name": "Silver Wolf",
+    "path": "Nihility",
+    "imagePath": "lib/images/characters/Silver Wolf.png",
+    "element": "Quantum",
+    "elementImage": "lib/images/quantum.png",
+    "pathImage": "lib/images/nil.png"
+  },
+  {
+    "name": "Sparkle",
+    "path": "Quantum",
+    "imagePath": "lib/images/characters/Sparkle.png",
+    "element": "Quantum",
+    "elementImage": "lib/images/quantum.png",
+    "pathImage": "lib/images/harm.png"
+  },
+  {
+    "name": "Sushang",
+    "path": "Hunt",
+    "imagePath": "lib/images/characters/Sushang.png",
+    "element": "Physical",
+    "elementImage": "lib/images/physical.png",
+    "pathImage": "lib/images/hunt.png"
+  },
+  {
+    "name": "Tingyun",
+    "path": "Harmony",
+    "imagePath": "lib/images/characters/Tingyun.png",
+    "element": "Lightning",
+    "elementImage": "lib/images/thunder.png",
+    "pathImage": "lib/images/harm.png"
+  },
+  {
+    "name": "Topaz & Numby",
+    "path": "Hunt",
+    "imagePath": "lib/images/characters/Topaz and Numby.png",
+    "element": "Fire",
+    "elementImage": "lib/images/fire.png",
+    "pathImage": "lib/images/hunt.png"
+  },
+  {
+    "name": "Trailblazer(Fire)",
+    "path": "Preservation",
+    "imagePath": "lib/images/ruanmei.png",
+    "element": "Fire",
+    "elementImage": "lib/images/fire.png",
+    "pathImage": "lib/images/per.png"
+  },
+  {
+    "name": "Trailblazer(Physical)",
+    "path": "Destruction",
+    "imagePath": "lib/images/ruanmei.png",
+    "element": "Physical",
+    "elementImage": "lib/images/physical.png",
+    "pathImage": "lib/images/dest.png"
+  },
+  {
+    "name": "Welt",
+    "path": "Nihility",
+    "imagePath": "lib/images/characters/Welt.png",
+    "element": "Imaginary",
+    "elementImage": "lib/images/imaginary.png",
+    "pathImage": "lib/images/nil.png"
+  },
+  {
+    "name": "Xueyi",
+    "path": "Destruction",
+    "imagePath": "lib/images/characters/Xueyi.png",
+    "element": "Quantum",
+    "elementImage": "lib/images/quantum.png",
+    "pathImage": "lib/images/dest.png"
+  },
+  {
+    "name": "Yangqing",
+    "path": "Hunt",
+    "imagePath": "lib/images/characters/Yanqing.png",
+    "element": "Ice",
+    "elementImage": "lib/images/ice.png",
+    "pathImage": "lib/images/hunt.png"
+  },
+  {
+    "name": "Yukong",
+    "path": "Harmony",
+    "imagePath": "lib/images/characters/Yukong.png",
+    "element": "Imaginary",
+    "elementImage": "lib/images/imaginary.png",
+    "pathImage": "lib/images/harm.png"
+  }
+]
