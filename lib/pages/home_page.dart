@@ -1,4 +1,3 @@
-// HomePage.dart
 import 'package:flutter/material.dart';
 import 'package:honkai_star_rail_database/componets/button.dart';
 import 'package:honkai_star_rail_database/pages/character_detail_page.dart';
@@ -135,18 +134,19 @@ class _HomePageState extends State<HomePage> {
         },
       ),
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: 0, // set the current index to control which tab is active
-        onTap: (int index) {
-          setState(() {
-            // change the current index to navigate to the selected tab
-            if (index == 0) {
-              // Navigate to home page
-              Navigator.pushReplacementNamed(context, '/home');
-            } else if (index == 1) {
-              // Navigate to character grid page
-              Navigator.pushReplacementNamed(context, '/character_grid');
-            }
-          });
+        currentIndex: 0, // Set the current index to reflect the Lightcones page
+        selectedItemColor: Colors.blue, // Set the color for the selected item
+        unselectedItemColor: Colors.black, // Set the color for the unselected items
+        onTap: (index) {
+          if (index == 0) {
+            Navigator.pushReplacementNamed(context, '/home');
+          } else if (index == 1) {
+            Navigator.pushReplacementNamed(context, '/character_grid');
+          } else if (index == 2) {
+            Navigator.pushReplacementNamed(context, '/relics_grid');
+          } else if (index == 3) {
+            Navigator.pushReplacementNamed(context, '/light_cones_grid');
+          }
         },
         items: [
           BottomNavigationBarItem(
@@ -157,9 +157,18 @@ class _HomePageState extends State<HomePage> {
             icon: Icon(Icons.grid_on),
             label: 'Characters',
           ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.grain),
+            label: 'Relics',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.lightbulb),
+            label: 'Lightcones',
+          ),
         ],
       ),
     );
   }
 }
+
 

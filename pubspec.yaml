@@ -23,4 +23,9 @@ flutter:
   assets:
     - lib/images/
     - assets/characters.json
+    - assets/lightcones.json
+    - assets/relics.json
     - lib/images/characters/
+    - lib/images/lightcones/
+    - lib/images/relics/
+    - lib/images/skills/

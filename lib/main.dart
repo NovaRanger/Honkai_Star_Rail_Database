@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:honkai_star_rail_database/pages/character_grid_view_page.dart';
 import 'package:honkai_star_rail_database/pages/home_page.dart';
 import 'package:honkai_star_rail_database/pages/intro_page.dart';
+import 'package:honkai_star_rail_database/pages/light_cones_grid_view_page.dart';
+import 'package:honkai_star_rail_database/pages/relics_grid_view_page.dart';
 
 void main() {
   runApp(const MainApp());
@@ -19,6 +21,8 @@ class MainApp extends StatelessWidget {
         '/intro': (context) => const IntroPage(),
         '/home': (context) => const HomePage(),
         '/character_grid': (context) => const CharacterGridViewPage(),
+        '/relics_grid':(context)=> const RelicsGridViewPage(),
+        '/light_cones_grid': (context) => const LightConesGridViewPage(),
       },
     );
   }

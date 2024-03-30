@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:honkai_star_rail_database/modles/characters.dart';
 import 'package:honkai_star_rail_database/pages/character_detail_page.dart';
-import 'package:honkai_star_rail_database/pages/home_page.dart';
 
 class CharacterGridViewPage extends StatelessWidget {
   const CharacterGridViewPage({Key? key}) : super(key: key);
@@ -76,29 +75,39 @@ class CharacterGridViewPage extends StatelessWidget {
           }
         },
       ),
-      bottomNavigationBar: AnimatedSwitcher(
-        duration: Duration(milliseconds: 500),
-        child: BottomNavigationBar(
-          key: UniqueKey(),
-          currentIndex: 1,
-          onTap: (index) {
-            if (index == 0) {
-              Navigator.pushReplacementNamed(context, '/home');
-            } else if (index == 1) {
-              Navigator.pushReplacementNamed(context, '/character_grid');
-            }
-          },
-          items: [
-            BottomNavigationBarItem(
-              icon: Icon(Icons.home),
-              label: 'Home',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.grid_on),
-              label: 'Characters',
-            ),
-          ],
-        ),
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: 1, // Set the current index to reflect the Lightcones page
+        selectedItemColor: Colors.blue, // Set the color for the selected item
+        unselectedItemColor: Colors.black, // Set the color for the unselected items
+        onTap: (index) {
+          if (index == 0) {
+            Navigator.pushReplacementNamed(context, '/home');
+          } else if (index == 1) {
+            Navigator.pushReplacementNamed(context, '/character_grid');
+          } else if (index == 2) {
+            Navigator.pushReplacementNamed(context, '/relics_grid');
+          } else if (index == 3) {
+            Navigator.pushReplacementNamed(context, '/light_cones_grid');
+          }
+        },
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Home',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.grid_on),
+            label: 'Characters',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.grain),
+            label: 'Relics',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.lightbulb),
+            label: 'Lightcones',
+          ),
+        ],
       ),
     );
   }

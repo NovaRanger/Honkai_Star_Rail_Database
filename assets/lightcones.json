@@ -1,0 +1,746 @@
+[
+  {
+    "name": "A Secret Vow",
+    "path": "Destruction",
+    "imagePath": "lib/images/lightcones/secret.png",
+    "pathImage": "lib/images/dest.png",
+    "description": "The boy would always make sure that his gloves and elbow guards were in good shape before leaving.\nHe treasured his gloves more than anything because they were tight enough to hide secrets.\nWith this layer of protection, no one could see the bandages on his hand and the wound beneath them.\nHe would be treated as if he was normal, and he would be greeted just like everyone else.\n\nThat was all he asked for.",
+    "passive": "Increases DMG dealt by the wearer by 20%. The wearer also deals an extra 20% of DMG to enemies whose current HP percentage is equal to or higher than the wearer's current HP percentage."
+  },
+  {
+    "name": "Adversarial",
+    "path": "Hunt",
+    "imagePath": "lib/images/lightcones/adversarial.png",
+    "pathImage": "lib/images/hunt.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"Freedom fighters will never die, as their stories will forever be told.\"",
+    "passive": "When the wearer defeats an enemy, increases SPD by 10% for 2 turn(s)."
+  },
+  {
+    "name": "Amber",
+    "path": "Preservation",
+    "imagePath": "lib/images/lightcones/amber.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"Only those who aren't affected by time can survive in time.\"",
+    "passive": "Increases DEF of its wearer by 16%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 16%."
+  },
+  {
+    "name": "An Instant Before A Gaze",
+    "path": "Erudition",
+    "imagePath": "lib/images/lightcones/instant.png",
+    "pathImage": "lib/images/.png",
+    "description": "He once heard a ballad, singing in praise of that sliver of light:\nRose blooms, to answer THEIR smile.\nDawn shines, to illuminate THEIR visage.\nMelody plays, to banish THEIR fatigue.\n\nBut, light, once gone, never returns. Yet, he still gallops to the far beyond.\nAll that is needed is to wait for, to believe in, and to preach about everything that is of the Beauty in this cosmos.\nEven if everything is but a fleeting instant before a gaze, he has already found the answer he sought.",
+    "passive": "Increases the wearer's CRIT DMG by 36%. When the wearer uses Ultimate, increases the wearer's Ultimate DMG based on their max energy. Each point of Energy increases the Ultimate DMG by 0.36%, up to 180 points of Energy."
+  },
+  {
+    "name": "Arrows",
+    "path": "Hunt",
+    "imagePath": "lib/images/lightcones/arrows.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"The hunter's eyes are the clearest when they pull back the bowstring with the arrow nocked.\"",
+    "passive": "At the start of the battle, the wearer's CRIT Rate increases by 12% for 3 turn(s)."
+  },
+  {
+    "name": "Baptism of Pure Thought",
+    "path": "Hunt",
+    "imagePath": "lib/images/lightcones/baptism.png",
+    "pathImage": "lib/images/.png",
+    "description": "The afternoon sunshine is just right, and the floral scents fill the air.\nThough he tries to keep his thoughts pure, cognitive stagnancy inevitably attracts particulates of mind like gathered dust.\n\n\"Healing one's thoughts is just as vital as the maintenance of one's health.\"\nThe fools' clamoring fades alongside fatigue as he sinks into the water, letting all thoughts loose, his mind elucidated and ordered.\n\n\"Truth eludes all filths, accepting only those of pure thoughts.\"",
+    "passive": "Increases the wearer's CRIT DMG by 20%. For every debuff on the enemy target, the wearer's CRIT DMG dealt against this target increases by 8%, stacking up to 3 times. When using their Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by 36% and enables their follow-up attacks to ignore 24% of the target's DEF. This effect lasts for 2 turns."
+  },
+  {
+    "name": "Before Dawn",
+    "path": "Erudition",
+    "imagePath": "lib/images/lightcones/dawn.png",
+    "pathImage": "lib/images/dawn.png",
+    "description": "\"Do not make this decision lightly, general... Think about how you will be remembered in history...\"\nThe general of the Cloud Knights listens to his subordinates' words with eyes half-closed.\n\"History will make its own judgment, but I have no interest in my legacy.\"\n\"If I succeed, history will state that I am currently supremely confident in my masterful strategy.\"\n\"But if I fail, then history will state that I am currently neglecting my duties in wanton pleasure, preferring finches over my people.\"\n\nA finch jumps down from his shoulder, and he extends his hand to catch the small creature.\n\"I have simply made my own decision.\"",
+    "passive": "Increases the wearer's CRIT DMG by 36%. Increases the wearer's Skill and Ultimate DMG by 18%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 48%."
+  },
+  {
+    "name": "Before the Tutorial Mission Starts",
+    "path": "Nihility",
+    "imagePath": "lib/images/lightcones/before.png",
+    "pathImage": "lib/images/.png",
+    "description": "How much longer until the action starts?\nYou have the nerve to ask a question like that... is something wrong with the new recruit?\nNo.\nElio didn't choose her because she was good at field work, but she has to at least survive this rookie assignment.\nShe's cruising.\nThen I'm relieved. It seems that Bladie has proved to be a reliable operative as well.\n...",
+    "passive": "Increases the wearer's Effect Hit Rate by 20%. When the wearer attacks DEF-reduced enemies, regenerates 4 Energy."
+  },
+  {
+    "name": "Brighter Than the Sun",
+    "path": "Destruction",
+    "imagePath": "lib/images/lightcones/brighter.png",
+    "pathImage": "lib/images/.png",
+    "description": "From birth, all that ever lay before him was but a lightless dungeon.\nTo this darkness, irrelevant sins bound him... irrelevant memories engulfed him.\nHe writhed, gasping for breath with every fiber of his being,\nattempting to clasp a sliver of light in this fathomless ocean.\n\nUntil the day the general stepped into the lightless depths of this prison,\nhe beheld a radiance shining brighter than the sun — the gaze of a young man.",
+    "passive": "Increases the wearer's CRIT Rate by 18%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon's Call, lasting for 2 turns. Each Stack of Dragon's Call increases the wearer's ATK by 18% and Energy Regeneration Rate by 6.0%. Dragon's Call may be stacked up to 2 times."
+  },
+  {
+    "name": "But the Battle Isn't Over",
+    "path": "Harmony",
+    "imagePath": "lib/images/lightcones/thebattle.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"Remember, the war with the monsters cannot be won by retreating.\"\n\"We are the last defense, the final iron wall between them and Belobog...\"\n\"We cannot retreat under any circumstances!\"\n\nShe looks up to see the frozen earth and endless winter ahead.\nBusiness as usual.\nOnly that... the figure at which she had been gazing is gone.",
+    "passive": "Increases the wearer's Energy Regeneration Rate by 10% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30% more DMG for 1 turn(s)."
+  },
+  {
+    "name": "Carve the Moon, Weave the Clouds",
+    "path": "Harmony",
+    "imagePath": "lib/images/lightcones/carve.png",
+    "pathImage": "lib/images/.png",
+    "description": "He immediately falls in love with the golden vessel and is about to buy it,\nbut the Foxian girl drags him aside and whispers:\n\"Please return at night, Mr. Benefactor, and make up your mind then.\"\n\nAs promised, he returns at night.\nThe same Foxian girl opens the door and smiles at him.\n\"Please follow me, Mr. Benefactor.\"\n\nA ray of moonlight shines onto the base of the etched plate.\nThe artisan had traced the petals with lines of various depths, and he would not be able to see such details without the moonlight.\n\nHe finally recalls why this item is called \"Carve the Moon, Weave the Clouds.\"",
+    "passive": "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by 10%, all allies' CRIT DMG increases by 12%, or all allies' Energy Regeneration Rate increases by 6%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked."
+  },
+  {
+    "name": "Chorus",
+    "path": "Harmony",
+    "imagePath": "lib/images/lightcones/chorus.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"Fingers clutch to make a fist, strength is built via numbers. I give myself for something higher — the concept of us.\"",
+    "passive": "After entering battle, increases the ATK of all allies by 8%. Effects of the same type cannot stack."
+  },
+  {
+    "name": "Collapsing Sky",
+    "path": "Destruction",
+    "imagePath": "lib/images/lightcones/collapsing.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"The death of all things is as natural as their birth. Time erodes everything, turning all tangible entities to dust.\"",
+    "passive": "Increases the wearer's Basic ATK and Skill DMG by 20%."
+  },
+  {
+    "name": "Cornucopia",
+    "path": "Harmony",
+    "imagePath": "lib/images/lightcones/cornucopia.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"Life is the existence of order beyond a certain threshold. Its birth is the final answer to the silent universe, declaring the end to the era of old chaos.\"",
+    "passive": "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12%."
+  },
+  {
+    "name": "Cruising in the Stellar Sea",
+    "path": "Hunt",
+    "imagePath": "lib/images/lightcones/cruising.png",
+    "pathImage": "lib/images/.png",
+    "description": "Coursing 'tween the sea of stars,\nthey cruise with the speed of a rainbow's chromatic flash.\nA journey of hunting undying abominations,\ncollecting cures and miracles,\nand seeking deliverance.\nAkin to a vow unbroken, their voyage will be,\nad infinitum.",
+    "passive": "ncreases the wearer's CRIT rate by 8%, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s)."
+  },
+  {
+    "name": "Dance! Dance! Dance!",
+    "path": "Harmony",
+    "imagePath": "lib/images/lightcones/dance.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"Why couldn't Hook do a spinning dance move, just like how Clara does?\"\nShe clenched her tiny fists and pouted her cute lips, her chubby little face looking redder than ever under her signature felt hat.\n\"Please, Mr. Svarog, can you please help Hook with this?\"\nWithout saying any words, Mr. Svarog began to hold out his robotic arm.\n\n\"I'm g—gonna be sick!!! Put me down now! Please!\"",
+    "passive": "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16%."
+  },
+  {
+    "name": "Darting Arrow",
+    "path": "Hunt",
+    "imagePath": "lib/images/lightcones/darting.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"The battle has begun. Arrows are thirsty for blood.\"",
+    "passive": "When the wearer defeats an enemy, increases ATK by 24% for 3 turn(s)."
+  },
+  {
+    "name": "Data Bank",
+    "path": "Erudition",
+    "imagePath": "lib/images/lightcones/data.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"Human extinction is inevitable, but the library will live on: lonely, immobile, and hidden from the public. Its vast collection is useless, yet pure from corruption.\"",
+    "passive": "Increases the wearer's Ultimate DMG by 28%."
+  },
+  {
+    "name": "Day One of My New Life",
+    "path": "Preservation",
+    "imagePath": "lib/images/lightcones/day.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"So happy I got to see Pom-Pom in new clothes today! I like it~\"\n\"Today's my birthday! I'm still as cute as ever.\"\n\"Today, I finally finally finally have a junior! Isn't that right, (Trailblazer)?\"\n\nWe click the shutter many times without thinking.\nDo we do that to capture the happiness at that moment?\nOr to capture ourselves at that moment?",
+    "passive": "Increases wearer's DEF by 16%. After entering battle, increases All-Type RES of all allies by 8%. Effects of the same type cannot stack."
+  },
+  {
+    "name": "Defense",
+    "path": "Preservation",
+    "imagePath": "lib/images/lightcones/defense.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"If you ever doubt these walls will lead us to victory, just look at these brave souls standing atop them.\"",
+    "passive": "When the wearer unleashes their Ultimate, they restore HP by 18% of their Max HP."
+  },
+  {
+    "name": "Destiny's Threads Forewoven",
+    "path": "Preservation",
+    "imagePath": "lib/images/lightcones/destiny.png",
+    "pathImage": "lib/images/.png",
+    "description": "Destiny always tows the masses onward without reason, and she lurks within the darkness, waiting to inscribe the most crucial of instants.\n\nSorting, matching, shuffling, drawing... She simulates fate's hand in how it manipulates all variables for the masses, seeking the trajectory of truth beneath the visage of a disorderly exterior.\n\nFinally, when all the characters are in their place, she brushes over the card faces that are in stasis, and assembles the unfathomable truth.\n\"Still missing a card... So, I'll add one in.\"",
+    "passive": "Increases the wearer's Effect RES by 12%. For every 100 DEF the wearer has, increases the wearer's DMG dealt by 0.8%, up to a maximum increase of 32%."
+  },
+  {
+    "name": "Dreamville Adventure",
+    "path": "Harmony",
+    "imagePath": "lib/images/lightcones/dreamville.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"Hello, dear viewers! Clockie and his pals have come to see you all again!\"\n\n\"In the previous episode, Boss Stone discovered that Dreamville was sitting on a wealth of natural resources, and moved to seize control over the city. In response, Clockie joined forces with Brother Hanu and Origami Bird, and together, they sent Boss Stone and his goons running from Dreamville.\"\n\n\"But Boss Stone isn't going to be defeated that easily, and this time, he's gathered a legion of thugs to fufill his oath of turning Dreamville into a crater. In this episode, Clockie might just be standing against the greatest threat he ever faced!\"\n\n\"What scheme will Clockie employ to escape from this crisis? And what new friends will join his party? Stay tuned for the latest episode of 'Dreamville Adventure'!\"",
+    "passive": "After the wearer uses a certain type of ability such as Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases allies' DMG for the same type of ability as used by the wearer by 12%. Childishness only takes effect for the most recent type of ability the wearer used and cannot be stacked."
+  },
+  {
+    "name": "Earthly Escapade",
+    "path": "Harmony",
+    "imagePath": "lib/images/lightcones/earthly.png",
+    "pathImage": "lib/images/.png",
+    "description": "Just as fireworks can flicker, she too can shift between ten different colors in a minute.\n\nWhen the light show nears its end, she sits high above, regarding the bustling masses beneath her feet with boredom.\nThoughts flow and vanish, and slyness circulates across myriad eyes like a dancing kaleidoscope.\n\"I've made my decision. This is how we're going to have fun today!\"\n\nBouncing and hopping, she glides through the crowds, her golden-red tail flitting in and out of sight.\n\"Keep up! The brightest fireworks are just about to begin!\"",
+    "passive": "Increases the wearer's CRIT DMG by 32%. At the start of the battle, the wearer gains Mask, lasting for 3 turns. While the wearer has Mask, the wearer's allies have their CRIT Rate increased by 10% and their CRIT DMG increased by 28%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turns."
+  },
+  {
+    "name": "Echoes of the Coffin",
+    "path": "Abundance",
+    "imagePath": "lib/images/lightcones/echos.png",
+    "pathImage": "lib/images/.png",
+    "description": "Under the watch of the white irises, he knocks on the coffin.\n\"Sometimes I feel I underestimated you by proposing this deal.\"\nHe receives no response other than a thorny branch piercing through his palm.\nYet he smiles, and tightly grasps the thorn.\n\n\"Indeed. This is how it is. We wanted to use each other, and both ended up underestimating the other.\"",
+    "passive": "Increases the wearer's ATK by 24%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 3 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 12 SPD for 1 turn."
+  },
+  {
+    "name": "Eyes of the Prey",
+    "path": "Nihility",
+    "imagePath": "lib/images/lightcones/eyes.png",
+    "pathImage": "lib/images/.png",
+    "description": "In reality, most prey don't realize when danger is encroaching.\nThis one's no exception.\nThe sniper's scope slowly centers on a man throwing banknotes stack after stack, who seems completely oblivious to his impending demise.\n\"So that's what greed looks like. That amount is equal to several of my contracts already... No wonder someone wants him dead.\"\n\nAs if these thoughts were broadcasted out loud, the man in the scope turns his head, looking straight into the eyes of the sniper.\n\"I've been waiting for you. Would this much be enough for you to hear me out?\"",
+    "passive": "Increases the wearer's Effect Hit Rate by 20% and increases DoT by 24%."
+  },
+  {
+    "name": "Fermata",
+    "path": "Nihility",
+    "imagePath": "lib/images/lightcones/fermata.png",
+    "pathImage": "lib/images/.png",
+    "description": "The phonograph record is being played, spinning nonstop. Even the sounds of all those hoarse shrieks cannot escape the heatwave and are dampened by its tepidity.\nShe seemed unprepared and utterly enthralled by the fascinating melodies:\n\nIt started with sincerity and anticipation...\n...followed by a passionate catharsis...\n...with one climax after another...\n\n...until the record's spinning came to a final stop and those hoarse shrieks were no longer audible.\n\"Mission accomplished.\"",
+    "passive": "Increases Break Effect dealt by the wearer by 16%, and increases their DMG to enemies afflicted with Shock or Wind Shear by 16%. This also applies to DoT."
+  },
+  {
+    "name": "Final Victor",
+    "path": "Hunt",
+    "imagePath": "lib/images/lightcones/final.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"You don't believe me?\"\nHe provocatively looks at the man before him, then draws out a revolver, empties its cylinder, and leaves a single shot in the chamber.\n\n\"Seems like I'll need to get you up to speed on how I do things if our cooperation were to remain amicable.\"\nHe pushes the gun into his opponent's hand, spins the cylinder, and points the barrel to his own chest.\n\nHe pulls the trigger repeatedly, and the smile on his face remains the same after three empty clicks.\n\"Life is a grand gamble. and I'll always be the final victor.\"",
+    "passive": "Increases the wearer's ATK by 12%. When the wearer lands a CRIT hit on enemies, gains a stack of Good Fortune, stacking up to 4 times. Every stack of Good Fortune the wearer has will increase their CRIT DMG by 8%. Good Fortune will be removed at the end of the wearer's turn."
+  },
+  {
+    "name": "Fine Fruit",
+    "path": "Abundance",
+    "imagePath": "lib/images/lightcones/fine.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"Everything tastes sweet for those desperate for water.\"",
+    "passive": "At the start of the battle, immediately regenerate 6 Energy for all allies."
+  },
+  {
+    "name": "Flames Afar",
+    "path": "Destruction",
+    "imagePath": "lib/images/lightcones/flames.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"Package secured. I'll leave covering our retreat to you.\"\nTheir comrade's voice comes through the communicator.\n\nThey glance around the surroundings, watching as the savaged remnants of their enemies continue to pass through the complex architecture inside the vast and abandoned structure.\nThey are drawing ever closer.\n\"Please hold.\"\n\nAfter a beat of quietude, a series of apocalyptic explosions rocket up into the sky. Waves of displaced air casts clouds of dust high across the battlefield, and smoke scatter in all directions, the blinding white cleaving light into the night.\n\"You know they purposely planted loads of gunpowder in there, right?\"\n\nWith a rustle, they flung open the cape as if they just finished a leisurely stroll.\n\"Of course.\"\n\"So, let's light it up. All I need to do is play the part of the match.\"",
+    "passive": "When the cumulative HP loss of the wearer during a single attack exceeds 25% of their Max HP, or if the amount of their own HP they consume at one time is greater than 25% of their Max HP, immediately heals the wearer for 15% of their Max HP. At the same time, increases the DMG they deal by 25% for 2 turn(s). This effect can only be triggered once every 3 turn(s)."
+  },
+  {
+    "name": "Geniuses' Repose",
+    "path": "Erudition",
+    "imagePath": "lib/images/lightcones/geniuses.png",
+    "pathImage": "lib/images/.png",
+    "description": "She pointed at that green rice cake.\n\"The experiment has ended. Time to take a break. I just can't miss this freshly made dessert.\"\n\nShe saw the puppet girl frowning in deep thought.\n\"Well, in your current body, you can only look but not eat. I'll make you a box of new ones when the time comes.\"\n\nShe saw the mechanical aristocrat hesitating at his own cup.\n\"Don't worry. It's only machine oil. Perfectly safe for you to consume.\"",
+    "passive": "Increases the wearer's ATK by 16%. When the wearer defeats an enemy, the wearer's CRIT DMG increases by 24% for 3 turn(s)."
+  },
+  {
+    "name": "Good Night and Sleep Well",
+    "path": "Nihility",
+    "imagePath": "lib/images/lightcones/good.png",
+    "pathImage": "lib/images/.png",
+    "description": "The dim light outlines the dust tracks,\nAs a young girl mumbles sweetly in her sleep.\nA silent figure appears behind her.\n\"Well, well, well, you're cuter without those glasses — I knew it.\"\nThe guitarist stares at her sleeping face, muttering to herself:\n\"Good night, the genius girl that worries a lot.\"",
+    "passive": "For every debuff the target enemy has, the DMG dealt by the wearer increases by 12%, stacking up to 3 time(s). This effect also applies to DoT."
+  },
+  {
+    "name": "Hey, Over Here",
+    "path": "Abundance",
+    "imagePath": "lib/images/lightcones/hey.png",
+    "pathImage": "lib/images/.png",
+    "description": "Three girls stroll in the darkness, and the surroundings seem to gain a hint of eeriness.\n\"Huohuo, hurry up, or we won't wait for you!\"\nShe steps forward confidently with her phone clutched in her hand, seemingly unaffected by the paranormal ambiance.\n\"I—I'm over here!\"\nThe girl standing ahead responds timidly.\n\"Huh? So you were in the front all along, then who is following Shangshang and me...\"\n\nThe perfect end for this scene would definitely be a girlish scream.",
+    "passive": "Increases the wearer's Max HP by 8%. When the wearer uses Skill, increases Outgoing Healing by 16%, lasting for 2 turns."
+  },
+  {
+    "name": "Hidden Shadow",
+    "path": "Nihility",
+    "imagePath": "lib/images/lightcones/hidden.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"The Nihility might find us, but there is a non-zero chance that they might not.\"",
+    "passive": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to 60% of ATK to the target enemy."
+  },
+  {
+    "name": "I Shall Be My Own Sword",
+    "path": "Destruction",
+    "imagePath": "lib/images/lightcones/ishall.png",
+    "pathImage": "lib/images/.png",
+    "description": "The blade shattered, plunging into the bone-chilling cold.\nAll earthly instruments are mere futilities, their worth discernible with a single glance.\n\"What use do I have of swords?\"\nShe holds no attachment, nor does her gaze accommodate anything within.\n\n\"From now on, I shall be my own sword.\"\nTo transcend perceived precipices and achieve unprecedented breakthroughs,\none must regard themselves as \"kindling\" to fuel their own fire.",
+    "passive": "Increases the wearer's CRIT DMG by 20%. When an ally (excluding the wearer) gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stack(s). Each stack of Eclipse increases the DMG of the wearer's next attack by 14.0%. When 3 stacks are reached, additionally enables the attack to ignore 12% of the enemy's DEF. This effect will be removed after the wearer uses an attack."
+  },
+  {
+    "name": "In the Name of the World",
+    "path": "Nihility",
+    "imagePath": "lib/images/lightcones/inname.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"Welt...?\"\n\"It's a... great name, right?\"\n\"Then...\"\n\"From now on, you are Welt.\"\n\"This Herrscher core... and the mission to protect the world...\"\n\"I'll leave them to you, Welt.\"",
+    "passive": "Increases the wearer's DMG to debuffed enemies by 24%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 18%, and ATK increases by 24%."
+  },
+  {
+    "name": "In the Night",
+    "path": "Hunt",
+    "imagePath": "lib/images/lightcones/inthenight.png",
+    "pathImage": "lib/images/.png",
+    "description": "A young girl smiles subtly.\n\"How?\"\n\"Right here, right now, I am alone...\"\n\"But it feels... very lively.\"",
+    "passive": "Increases the wearer's CRIT Rate by 18%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer's Basic ATK and Skill is increased by 6% and the CRIT DMG of their Ultimate is increased by 12%. This effect can stack up to 6 time(s)."
+  },
+  {
+    "name": "Incessant Rain",
+    "path": "Nihility",
+    "imagePath": "lib/images/lightcones/incessant.png",
+    "pathImage": "lib/images/.png",
+    "description": "She leaves the cover of the awning, opens her umbrella, and dives into an alley while humming a lighthearted tune.\nThe rain stops a little while after.\n\nShe scratches her head and swipes her screen open. After a few taps, raindrops begin to fall in an area no wider than her umbrella.\nThe pitter-patter sound of raindrops on the umbrella mixes with music from the game. All was calm and relaxing.\n\"Gaming and rain totally go together.\"",
+    "passive": "Increases the wearer's Effect Hit Rate by 24%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer's CRIT Rate by 12%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 12% increased DMG for 1 turn."
+  },
+  {
+    "name": "Indelible Promise",
+    "path": "Destruction",
+    "imagePath": "lib/images/lightcones/indelible.jpg",
+    "pathImage": "lib/images/.png",
+    "description": "A weathered past. A sworn duty to defend home. A dream to blaze a trail across the world—\nThese were entrusted to the unworldly youth by a pair of rough, calloused hands.\n\n\"Soon, we'll be able to go to a larger world.\"\nThe boy happily accepted his inheritance. Guarded by youth, he could not feel the weight born by the object's significance.\n\n\"Of course. Before that time comes, however, guard this place well, Misha.\"\n\nHe thus engraved that promise deep inside his heart, holding to it forever and always.",
+    "passive": "Increases the wearer’s Break Effect by 28%. When the wearer uses their Ultimate, increases their CRIT Rate by 15%, lasting for 2 turn(s)."
+  },
+  {
+    "name": "It's Showtime",
+    "path": "Nihility",
+    "imagePath": "lib/images/lightcones/itsshowtime.png",
+    "pathImage": "lib/images/.png",
+    "description": "—Who witnessed his death?\n—Me! I spied it with my little eyes!\n—Who took his blood?\n—Me! I used my little saucer!\n—Who dug his grave?\n—Me! Using my chisel and shovel!\n\nThe wise uses all techniques in their arsenal, the sovereign soothes their heart with power, the hero views themselves to be righteous, and the Fool laughs ceaselessly—\n\"Now, let us welcome Ms. Sparkle to bring us the performances of the year — Penacony's Night of Fright!\"",
+    "passive": "When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer's DMG dealt by 6%, stacking up to 3 times. This effect lasts for 1 turn. When the wearer's Effect Hit Rate is 80% or higher, increases ATK by 20%."
+  },
+  {
+    "name": "Landau's Choice",
+    "path": "Preservation",
+    "imagePath": "lib/images/lightcones/landau.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"Did you not hear me? Don't go there ever again! What could you possibly be learning from those commoners!\"\n\"But I've never heard any of the stories they tell about Belobog before...\"\n\nShe pulled her brother behind her, denying him the chance to talk back.\n\"You are both Landaus! One day, you'll face hard choices. Especially you, Serval.\"\n\nShe knew that her brother did nothing wrong, but she couldn't think of a rebuttal.\nShe went to bed angry after the argument, vowing to herself:\n\"I will be a grown-up one day. And when that day comes, I will make choices...\"\n\"My own choices...\"",
+    "passive": "The wearer is more likely to be attacked, and DMG taken is reduced by 16%."
+  },
+  {
+    "name": "Loop",
+    "path": "Nihility",
+    "imagePath": "lib/images/lightcones/loop.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"Those running away from the past think no one understands their despair. When they finally take a breather, they'll find their future selves staring right at them with bloodshot eyes.\"",
+    "passive": "Increases DMG dealt from its wearer to Slowed enemies by 24%."
+  },
+  {
+    "name": "Make the World Clamor",
+    "path": "Harmony",
+    "imagePath": "lib/images/lightcones/make.png",
+    "pathImage": "lib/images/.png",
+    "description": "She stood on the stage, waving at her audience, encouraging them to make their voice heard.\nSongs, shouts, or laments — anything that makes a sound.\nVoice your thoughts, so others can come to help.\n\n\"Don't make your heart as cold as this concrete jungle.\"\n\n— Make the world clamor.",
+    "passive": "The wearer regenerates 20 Energy immediately upon entering battle, and increases Ultimate DMG by 32%."
+  },
+  {
+    "name": "Mediation",
+    "path": "Harmony",
+    "imagePath": "lib/images/lightcones/meditation.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"What can be more joyous than purging disharmony?\"",
+    "passive": "Upon entering battle, increases SPD of all allies by 12 for 1 turn(s)."
+  },
+  {
+    "name": "Memories of the Past",
+    "path": "Harmony",
+    "imagePath": "lib/images/lightcones/memories.png",
+    "pathImage": "lib/images/.png",
+    "description": "An old photo lies on the far end of the table in the guardian's residence.\nShe would always subconsciously move her eyes away whenever she happened to see it.\nThe memories of the past had already become distant, but the dreams of today still linger.",
+    "passive": "Increases the wearer's Break Effect by 28%. When the wearer attacks, additionally regenerates 4 Energy. This effect cannot be repeatedly triggered in a single turn."
+  },
+  {
+    "name": "Meshing Cogs",
+    "path": "Harmony",
+    "imagePath": "lib/images/lightcones/meshing.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"Harmony is achieved when everyone does their bit amidst the clunking of machines.\"",
+    "passive": "After the wearer uses attacks or gets hit, additionally regenerates 4 Energy. This effect can only be triggered 1 time per turn."
+  },
+  {
+    "name": "Moment of Victory",
+    "path": "Preservation",
+    "imagePath": "lib/images/lightcones/moment.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"If you want to cry after your loss, Gepard, then cry.\"\n\"But you need to stand back up even when you are crying, until you can defeat me... Even if it takes years.\"\nA few years later, the boy no longer cried or lost to his sister.\n\nNow on the battle field, the courageous Silvermane Guard captain will defend till the end no matter what\n— all to find the moment to completely destroy the enemy.",
+    "passive": "Increases the wearer's DEF by 24% and Effect Hit Rate by 24%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra 24% until the end of the wearer's turn."
+  },
+  {
+    "name": "Multiplication",
+    "path": "Abundance",
+    "imagePath": "lib/images/lightcones/multiplication.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"When life has lost its meaning, please continue to bestow life upon it.\"",
+    "passive": "After the wearer uses their Basic ATK, their next action will be Advanced Forward by 12%"
+  },
+  {
+    "name": "Mutual Demise",
+    "path": "Destruction",
+    "imagePath": "lib/images/lightcones/mutal.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"How does one make perfect the past of a planet? Now — immediately — rend the planet asunder.\"",
+    "passive": "If the wearer's current HP is lower than 80%, CRIT Rate increases by 12%."
+  },
+  {
+    "name": "Night of Fright",
+    "path": "Abundance",
+    "imagePath": "lib/images/lightcones/night.png",
+    "pathImage": "lib/images/.png",
+    "description": "The girl hides behind the door and dares not move one step closer.\nPerhaps due to the fact that tonight's objective is already within her reach, her heart is actually beating faster.\n\"I'm not scared, not scared, not scared...\"\nIn darkness, silence lets out a piercing scream.\n\nThe girl is shivering and grasps the \"weapon\" in her hands tight, but still does not dare to approach the \"target.\"\n\"There is nothing to be s—s—scared of!\"\n\nThe tail behind her has finally had enough and suddenly lights up.\n\"Hurry up. You're just picking up a delivery!\"",
+    "passive": "Increases the wearer's Energy Regeneration Rate by 12%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 10% of the healed ally's Max HP. When the wearer provides healing for an ally, increases the healed ally's ATK by 2.4%. This effect can stack up to 5 times and lasts for 2 turn(s)."
+  },
+  {
+    "name": "Night on the Milky Way",
+    "path": "Erudition",
+    "imagePath": "lib/images/lightcones/nighton.png",
+    "pathImage": "lib/images/.png",
+    "description": "If you are concerned for the road, just look up again.\nWhen the stars look gently down, the heart would already be soaring.\nEvery thought and every whisper,\nbecomes a life experience that would never leave.",
+    "passive": "For every enemy on the field, increases the wearer's ATK by 9.0%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30% for 1 turn."
+  },
+  {
+    "name": "Nowhere to Run",
+    "path": "Destruction",
+    "imagePath": "lib/images/lightcones/nowhere.png",
+    "pathImage": "lib/images/.png",
+    "description": "This isn't the first time he's seen this man.\nThis man had become his own inseparable shadow.\nNo matter how many times he runs this man through with his spear, the man always comes back.\n\nHe can neither lose to this man, nor truly win.\nThough he wants to run away, there is nowhere to run.",
+    "passive": "Increases the wearer's ATK by 24%. Whenever the wearer defeats an enemy, they restore HP equal to 12% of their ATK."
+  },
+  {
+    "name": "On the Fall of an Aeon",
+    "path": "Destruction",
+    "imagePath": "lib/images/lightcones/on.png",
+    "pathImage": "lib/images/.png",
+    "description": "It began with a flash of light.\nOne by one, they fell as the threat of expiration loomed over them.\nThey had to stop self-replicating and rushed to embrace each other,\ntrying to offer the right to reproduce in exchange for a possibility of survival.\nThey held hands in a show of unprecedented unity.\n...But the Paths met an abrupt end,\nand they were headed to a true death.",
+    "passive": "Whenever the wearer attacks, their ATK is increased by 8% in this battle. This effect can stack up to 4 time(s). After a character inflicts Weakness Break on an enemy, the wearer's DMG increases by 12% for 2 turn(s)."
+  },
+  {
+    "name": "Only Silence Remains",
+    "path": "Hunt",
+    "imagePath": "lib/images/lightcones/only.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"Shouldn't we get off? It's our stop.\"\nA chuckle came from above. His eyes moved, but he didn't look up.\n\n\"To be clear, March always says you're expressionless, but I don't agree.\"\n\"The train's data bank show traces of an update, but the results weren't saved.\"\n\"So... which entry were you having trouble with?\"\n\nHe grasped his pen tighter as he looked at the bloody scene drawn in the notebook from memory.\n\n\"I see. It was the one about you...\"",
+    "passive": "Increases the wearer's ATK by 16%. If there are 2 or fewer enemies on the field, increases wearer's CRIT Rate by 12%."
+  },
+  {
+    "name": "Passkey",
+    "path": "Erudition",
+    "imagePath": "lib/images/lightcones/passkey.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"Knowledge is locked behind a gate, the key to which is hidden from those seeking answers from others, while made obvious for those determined to find it on their own.\"",
+    "passive": "After the wearer uses their Skill, additionally regenerates 8 Energy. This effect cannot be repeatedly triggered in a single turn."
+  },
+  {
+    "name": "Past Self in Mirror",
+    "path": "Harmony",
+    "imagePath": "lib/images/lightcones/pastself.png",
+    "pathImage": "lib/images/.png",
+    "description": "She once loved to seal the moment when plum blossoms were on the verge of wilting and keep them close to her.\nIt has been many years since then. Many lifeforms — rambunctious, sweet, and everything in between — have bloomed from her hands, but the plum blossoms still wilt at their preordained times.\nIt has been many years since then. Her visage in the mirror seems untouched by time. But, in the grand scheme of the cosmos, is she too destined to last for but a fleeting moment?\n\n\"If all is set for eventual demise, what purpose, then, does creation serve?\"\nAfter a silence that seems to stretch to eternity, the winds blow, the petals fall, and the reflection in the mirror tenders the same answer as always.\n\"For the day when plum blossoms are no longer kept.\"\nShe deftly caresses the icy surface of the mirror. Such soliloquies have happened too many times for her to count.",
+    "passive": "Increases the wearer's Break Effect by 60%. When the wearer uses their Ultimate, increases all allies' DMG by 24%, lasting for 3 turn(s). Should the wearer's Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, all allies regenerate 10 Energy immediately. Effects of the same type cannot stack."
+  },
+  {
+    "name": "Past and Future",
+    "path": "Harmony",
+    "imagePath": "lib/images/lightcones/past.png",
+    "pathImage": "lib/images/.png",
+    "description": "The wings of the paper kite in her hands were broken, brutally reminding her of her beloved's tragic passing.\nShe kneeled next to the fire of war, eyes full of sorrow.\n\n\"If you are the only one left to do this, then our sacrifice would...\"\n\nGunfire raged on, painting the sky red without dampening its majesty.\nShe looked up at the sky, eyes full of fury.",
+    "passive": "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 16% increased DMG for 1 turn(s)."
+  },
+  {
+    "name": "Patience Is All You Need",
+    "path": "Nihility",
+    "imagePath": "lib/images/lightcones/patience.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"Could it be that there's something you haven't told me?\"\n\nShe watches as their neck stiffens, as if a lump is blocking their throat.\nShe knows she is feared, and that no further step is needed.\nAt this point, it no longer mattered what she said.\nAny word she utters radiates horror...\nThey stand no chance against her, and have no choice but to blurt out what she wants to hear.\n\nLike a spider waiting in its web, patience is all she needs.",
+    "passive": "Increases DMG dealt by the wearer by 24%. After every attack launched by the wearer, their SPD increases by 4.8%, stacking up to 3 times. If the wearer hits an enemy target that is not affected by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 60% of the wearer's ATK, lasting for 1 turn."
+  },
+  {
+    "name": "Perfect Timing",
+    "path": "Abundance",
+    "imagePath": "lib/images/lightcones/perfect.png",
+    "pathImage": "lib/images/.png",
+    "description": "On a bustling street, he walks and walks. The sunlight closely follows his footsteps.\nHe makes a stop and picks up an umbrella to shade himself from the sun\n...and from that prying gaze.",
+    "passive": "Increases the wearer's Effect RES by 16% and increases Outgoing Healing by an amount that is equal to 33% of Effect RES. Outgoing Healing can be increased this way by up to 15%."
+  },
+  {
+    "name": "Pioneering",
+    "path": "Preservation",
+    "imagePath": "lib/images/lightcones/pioneering.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"We will no longer fight alone. The IPC will stand alongside everyone in assistance.\"",
+    "passive": "When the wearer Breaks an enemy's Weakness, the wearer restores HP by 12% of their Max HP."
+  },
+  {
+    "name": "Planetary Rendezvous",
+    "path": "Harmony",
+    "imagePath": "lib/images/lightcones/planetary.png",
+    "pathImage": "lib/images/.png",
+    "description": "She had no idea what to expect when she first started out on this journey.\nAll she knew was that she could at long last be rid of the judgmental eyes and petty bickering of her family.\nShe felt she finally understood what the poet was trying to say.\n\"One day, we would grow wings and forget what it was like to walk.\"\n\nThe light in her eyes became the glittering stars.",
+    "passive": "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 12%."
+  },
+  {
+    "name": "Post-Op Conversation",
+    "path": "Abundance",
+    "imagePath": "lib/images/lightcones/post.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"You're awake... Thank you.\"\n\"You... saved my life, Natasha. The one who should be saying thanks... is me.\"\n\"No, I should be thanking you... for holding on until I finished the surgery.\"\n\nThe doctor and patient smiled wearily at each other and said nothing more.",
+    "passive": "Increases the wearer's Energy Regeneration Rate by 8% and increases Outgoing Healing when they use their Ultimate by 12%."
+  },
+  {
+    "name": "Quid Pro Quo",
+    "path": "Abundance",
+    "imagePath": "lib/images/lightcones/quid.png",
+    "pathImage": "lib/images/.png",
+    "description": "After enjoying an intense massage from the dragon girl,\nthe Foxian girl held out her hand and playfully pinched the dragon girl's little chubby cheeks.\nThe little girl then pouted her lips, clearly offended, only to elicit a gleeful giggle from the Foxian girl.\n\n\"Now that's what I call a proper quid pro quo.\"",
+    "passive": "At the start of the wearer's turn, regenerates 8 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%."
+  },
+  {
+    "name": "Reforged Remembrance",
+    "path": "Nihility",
+    "imagePath": "lib/images/lightcones/reforged.png",
+    "pathImage": "lib/images/.png",
+    "description": "Light the candles, spread the cards, breathe in the fragrance... These broken memories become faces in the dancing light. The apparitions that emerge from flames tell her of pasts fondly recalled.\nTime is shorn. The moment is frozen. She turns these most precious instants into crystallizations of eternity.\n\n\"There is too much lost, and too little that remains... We nurture remembrance against the cruelties of time.\"",
+    "passive": "ncreases the wearer's Effect Hit Rate by 40%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer's ATK by 5% and enables the DoT dealt to ignore 7.2% of the target's DEF."
+  },
+  {
+    "name": "Resolution Shines As Pearls of Sweat",
+    "path": "Nihility",
+    "imagePath": "lib/images/lightcones/resolution.png",
+    "pathImage": "lib/images/.png",
+    "description": "The limelight cast on the boxing ring is bright, but no brighter than all those beads of sweat running down his back.\n\nHe has long been determined to use his two fists to protect those he cherishes the most.\nAfter all, they are the ones who ignited his determination in the first place.\nThey are the ones who have always been there for him, be it inside or outside the boxing ring.",
+    "passive": "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 60% base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by 12% for 1 turn(s)."
+  },
+  {
+    "name": "Return to Darkness",
+    "path": "Hunt",
+    "imagePath": "lib/images/lightcones/return.png",
+    "pathImage": "lib/images/.png",
+    "description": "Even though her sister was close by her side, she could hear nothing.\nThe only thing audible was the voice in the depths of her heart, which only grew louder by the minute.\n\n\"Big sis's body is cold.\"\n\"Big sis's body is not moving.\"\n\nA violent surge of fury irrevocably overwhelmed her so much that she didn't even find the time to clear her mind, or to remember this crucial yet neglected fact...\n\n\"Big sis's body has been cold like this for a very long time.\"",
+    "passive": "Increases the wearer's CRIT Rate by 12%. After a CRIT Hit, there is a 16% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack."
+  },
+  {
+    "name": "River Flows in Spring",
+    "path": "Hunt",
+    "imagePath": "lib/images/lightcones/river.png",
+    "pathImage": "lib/images/.png",
+    "description": "The young boy took a short break from his sword practice.\nThe sunlight was baking his already heated neck. He slowly got into the water, whose coldness touched his bare feet.\nWhen the bell chimes and birds tweet, even the people far away would know that springtime had arrived.",
+    "passive": "After entering battle, increases the wearer's SPD by 8% and DMG by 12%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer's next turn."
+  },
+  {
+    "name": "Sagacity",
+    "path": "Erudition",
+    "imagePath": "lib/images/lightcones/sagacity.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"Should Wise Ones be unable to abandon their identity as humans, they shall be abandoned by wisdom.\"",
+    "passive": "When the wearer uses their Ultimate, increases ATK by 24% for 2 turn(s)."
+  },
+  {
+    "name": "Shared Feeling",
+    "path": "Abundance",
+    "imagePath": "lib/images/lightcones/shared.png",
+    "pathImage": "lib/images/.png",
+    "description": "When the doctor found the wounded girl, she was clinging to a machine that had stopped working, with all sorts of parts filling her pocket.\nShe took the girl back to her clinic and treated the wounds.\nDrops of sweat slowly rolled down the girl's cheek, but she remained silent and her hands didn't stop fiddling the machine.\nTo the doctor, the way the girl was attached to the machine was very much like how she was attached to her patients who needed help.\nSo the doctor did not try to comfort the girl nor did she nag her about being more careful; but rather, she sat down with her to give her a moment of peace.",
+    "passive": "Increases the wearer's Outgoing Healing by 10%. When using Skill, regenerates 2 Energy for all allies."
+  },
+  {
+    "name": "Shattered Home",
+    "path": "Destruction",
+    "imagePath": "lib/images/lightcones/shattered.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"Absolute control comes from the ability to inflict total destruction.\"",
+    "passive": "The wearer deals 20% more DMG to enemy targets whose HP percentage is greater than 50%."
+  },
+  {
+    "name": "She Already Shut Her Eyes",
+    "path": "Preservation",
+    "imagePath": "lib/images/lightcones/she.png",
+    "pathImage": "lib/images/.png",
+    "description": "The ache in the middle of her forehead will accompany her for the rest of her life, but it is only a fraction of what she had experienced in the past.\nShe thought herself prescient until the departure of those for whom she cared.\nShe now \"sees\" the world ever-changing, the times ever-shifting...\nBut she already shut her eyes, because the future has already been determined\n...inside \"the third eye.\"",
+    "passive": "Increases the wearer's Max HP by 24% and Energy Regeneration Rate by 12%. When the wearer's HP is reduced, all allies' DMG dealt increases by 9.0%, lasting for 2 turn(s).\nAt the start of every wave, restores HP to all allies by an amount equal to 80% of their respective lost HP."
+  },
+  {
+    "name": "Sleep Like the Dead",
+    "path": "Hunt",
+    "imagePath": "lib/images/lightcones/sleep.png",
+    "pathImage": "lib/images/.png",
+    "description": "The boy is still tightly grasping the sword even when fast asleep against the general's shoulder.\nThe general gently taps the boy's cheek, and the boy mutters in his sleep.\n\"General... I finally... won.\"\n\nThe general pauses. He suddenly realizes that, compared to the boy trying to improve every day,\nhe himself has endured too many years and is used to stagnation.\n\n\"You will soon be better than everyone, and that will only be the beginning...\"",
+    "passive": "Increases the wearer's CRIT DMG by 30%. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by 36% for 1 turn. This effect can only trigger once every 3 turn(s)."
+  },
+  {
+    "name": "Solitary Healing",
+    "path": "Nihility",
+    "imagePath": "lib/images/lightcones/solitary.png",
+    "pathImage": "lib/images/.png",
+    "description": "Things molded by the hands of secrecy are shapeless and incorporeal.\nIn the totality of emptiness, there yet exists a sudden dreaming.\nThose that court destruction will reap ruinous fruit, while those that clamor to live will survive.\nThat which is extinguished may yet spark, and that which has dried may yet be filled anew.\nIn compassion for the salvation of chaos, the elixir nurtures the shadows.\nWith back faced to the darkness between the stars, the encapsulation of this vessel can only be done in vain.\n\n\"Paradoxical these knowings are, in them shine the fullness of our pride.\"",
+    "passive": "Increases the wearer's Break Effect by 20%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 24%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates 4 Energy for the wearer."
+  },
+  {
+    "name": "Something Irreplaceable",
+    "path": "Destruction",
+    "imagePath": "lib/images/lightcones/something.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"Should a day come when even I'm not here anymore, please look after this database, Svarog.\"\n(Who is this... Why is this message in my records...)\n\"Do you have something that's irreplaceable, Svarog?\"\n(Irreplaceable... broken parts... can simply be replaced...)\n\"You'll definitely find it one day, Svarog.\"\n(Such things... will only cause trouble...)",
+    "passive": "Increases the wearer's ATK by 24%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 8% of the wearer's ATK. At the same time, the wearer's DMG is increased by 24% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn."
+  },
+  {
+    "name": "Subscribe for More!",
+    "path": "Hunt",
+    "imagePath": "lib/images/lightcones/subscribe.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"Yo, yo. What is up! Is everything coming through?\"\n\nThe orange-haired girl slowly lifts a sledgehammer while shouting enthusiastically at the camera.\n\"Ever seen a pretty girl doing the cinder-block-smashed-on-chest stunt?\"\n\n\"I didn't sign up for this!\"\nThe brunette girl cried out loud, only to be met with a sly smile from the girl with the orange hair.\n\"Please. Just let me do this. This is what people would've wanted.\"",
+    "passive": "Increases the DMG of the wearer's Basic ATK and Skill by 24%. This effect increases by an extra 24% when the wearer's current Energy reaches its max level."
+  },
+  {
+    "name": "Swordplay",
+    "path": "Hunt",
+    "imagePath": "lib/images/lightcones/swordplay.png",
+    "pathImage": "lib/images/.png",
+    "description": "Looking rather skeptical, the girl thrust the small sword at her imaginary enemy in an attempt to convince herself that this thing was useful.\nHow can something so feeble compete with my two-handed sword? Do enemies even notice when they get stabbed?\n\nThe owner of the sword did not seem to care about its size.\nAfter all, enemies are defeated by strategy, not swords.\nIt doesn't matter whether the sword is heavy or light, as long as you use the pointy end.",
+    "passive": "For each time the wearer hits the same target, DMG dealt increases by 8%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets."
+  },
+  {
+    "name": "Texture of Memories",
+    "path": "Preservation",
+    "imagePath": "lib/images/lightcones/texture.png",
+    "pathImage": "lib/images/.png",
+    "description": "The universe was like a badland filled with rubbish.\nThere were the occasional treasure that lies undiscovered.\nThey looked through the cracks of the past, choosing seeds of memory.\n...If a new life was to be born, its seed has to be dead.\nPrecious stones of pink, blue, and white were brought forth,\ntwinkling gently in their seed plot,\neven though the universe held onto its enigmatic silence.",
+    "passive": "Increases the wearer's Effect RES by 8%. If the wearer is attacked and has no Shield, they gain a Shield equal to 16% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 12%."
+  },
+  {
+    "name": "The Birth of the Self",
+    "path": "Erudition",
+    "imagePath": "lib/images/lightcones/thebirth.png",
+    "pathImage": "lib/images/.png",
+    "description": "In the beginning, it had the exact same pose as the previous portrait.\nLooking at the face identical to hers, she was convinced that this was not her.\n\n\"Impossible. How can two portraits be exactly the same?\"\n\nShe tweaked its joints, opened its eyes, and made its fingers softer.\nShe looked happy when all the changes were done.\n\n\"Completely different from yesterday. This is more like who I am today.\"",
+    "passive": "Increases DMG dealt by the wearer's follow-up attacks by 24%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 24%."
+  },
+  {
+    "name": "The Day The Cosmos Fell",
+    "path": "Erudition",
+    "imagePath": "lib/images/lightcones/theday.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"Molten Cheese Tart! You are in charge of disarming the planet's lookouts with your charm!\"\n\"Gray Bean Paste! You will be in charge of breaching the planet's line of defense!\"\n\"Salty Rimeplume! Bring us the head of the planet's leader!\"\n\"My lord, what are you going to do!\"\n\"I shall pretend to be an adorable kitten to befuddle these stupid humans!\"\n\nThe day, the Cosmos remembered... the terror of being ruled by them.",
+    "passive": "Increases the wearer's ATK by 16%. When the wearer uses an attack and at least 2 attacked enemies have the corresponding Weakness, the wearer's CRIT DMG increases by 20% for 2 turns."
+  },
+  {
+    "name": "The Moles Welcome You",
+    "path": "Destruction",
+    "imagePath": "lib/images/lightcones/themoles.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"Moles, moles,\"\n\"Leaving our holes,\"\n\"Smart moles fear naught foes,\"\n\"Moles, moles,\"\n\"Bite your toes!\"",
+    "passive": "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by 12%."
+  },
+  {
+    "name": "The Seriousness of Breakfast",
+    "path": "Erudition",
+    "imagePath": "lib/images/lightcones/theseriousness.png",
+    "pathImage": "lib/images/.png",
+    "description": "Though the table is set...\nSome people want a cup of tea first.\nSome people want to take a picture first.\nSome people want to read the newspaper first.\nSome people want to write a page in their notebook first.\nSome people want to play on their phone first.\n\n\"All of you, eat while the food is hot!\"",
+    "passive": "Increases the wearer's DMG by 12%. For every defeated enemy, the wearer's ATK increases by 4%, stacking up to 3 time(s)."
+  },
+  {
+    "name": "The Unreachable Side",
+    "path": "Destruction",
+    "imagePath": "lib/images/lightcones/theunreachable.png",
+    "pathImage": "lib/images/.png",
+    "description": "He would come to this place every year, bringing new swords with him each time.\nHe had seen all the owners of the swords draw their last breath.\nEvery time he leaves, he would sorrowfully ponder...\n\nWhen would his own blade be brought here by someone else?",
+    "passive": "Increase the wearer's CRIT Rate and Max HP by 18%. After the wearer is attacked or consumes their own HP, increases the wearer's DMG by 24%. This effect is dispelled after the user uses an attack."
+  },
+  {
+    "name": "This Is Me!",
+    "path": "Preservation",
+    "imagePath": "lib/images/lightcones/thisis.png",
+    "pathImage": "lib/images/.png",
+    "description": "The girl could rock any outfit she chooses, but she was unsatisfied, judging by the dozen sets of clothing piled up behind her.\n\n\"Will this be the last outfit for today?\"\n\nShe thought silently to herself and looked at the girl in the mirror. She looked extra happy on this day.\n\n\"Okay! This is me!\"",
+    "passive": "Increases the wearer's DEF by 16%. Increases the DMG of the wearer when they use their Ultimate by 60% of the wearer's DEF. This effect only apply 1 time per enemy target."
+  },
+  {
+    "name": "Time Waits for No One",
+    "path": "Abundance",
+    "imagePath": "lib/images/lightcones/time.png",
+    "pathImage": "lib/images/.png",
+    "description": "She had spent many days next to the window.\n\nFlowers were blooming outside when she made gentle medicines with mint and nepeta.\nRain was falling outside when she made strong medicines with mosla and ginger.\nLeaves were falling outside when she made sour medicines with peony roots and dry plums.\nAnd snow was falling outside when she made bitter medicines with skullcaps and anemarrhena.\n\nTime flows endlessly, but this window and the person sitting next to it remain forever the same.",
+    "passive": "Increases the wearer's Max HP by 18% and Outgoing Healing by 12%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes additional DMG equal to 36% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer's. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn."
+  },
+  {
+    "name": "Today Is Another Peaceful Day",
+    "path": "Erudition",
+    "imagePath": "lib/images/lightcones/today.png",
+    "pathImage": "lib/images/.png",
+    "description": "There is the new book borrowed for lunch and she just figured out a new way to play tiles.\nIf she works slowly, the rest of her job should last exactly till the end of day.\nShe ducks easily into a corner.\n\nNo one must disturb her in her wonderful off time\n— not even diviner Fu.\nJust on the off chance that she does show up...\n\n\"Then I'll give this milk candy ball to Diviner Fu. She can't be angry after having sweets!\"",
+    "passive": "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by 0.20% per point of Energy, up to 160 Energy."
+  },
+  {
+    "name": "Trend of the Universal Market",
+    "path": "Preservation",
+    "imagePath": "lib/images/lightcones/trend.png",
+    "pathImage": "lib/images/.png",
+    "description": "The planet is receiving a revaluation...\n\n\"Will this project show that it's mutually beneficial to collect any outstanding debts?\"\n\"But we only need to convey one message — our existence.\"\n\n\"If it were to have a value of its own, then it must create value for the corporation.\"",
+    "passive": "Increases the wearer's DEF by 16%. When the wearer is attacked, there is a 100% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 40% of the wearer's DEF for 2 turn(s)."
+  },
+  {
+    "name": "Under the Blue Sky",
+    "path": "Destruction",
+    "imagePath": "lib/images/lightcones/under.png",
+    "pathImage": "lib/images/.png",
+    "description": "Under the blue sky, fields of wheat were dancing.\nThe young girl was carefully weaving a flower wreath,\nfor her most beloved little sister.\n\nThat was when they were still the same height.\nThat was when they shared the same smile.",
+    "passive": "Increases the wearer's ATK by 16%. When the wearer defeats an enemy, the wearer's CRIT Rate increases by 12% for 3 turn(s)."
+  },
+  {
+    "name": "Void",
+    "path": "Nihility",
+    "imagePath": "lib/images/lightcones/void.png",
+    "pathImage": "lib/images/.png",
+    "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\n\n\"He stared into the void, hanging high like the dark sun at the end of all matter, or a mouth that answered all questions. It said: ███ █ ███ ██ The answer couldn't be expressed in any human language, but could be understood by all.\"",
+    "passive": "At the start of the battle, the wearer's Effect Hit Rate increases by 20% for 3 turn(s)."
+  },
+  {
+    "name": "Warmth Shortens Cold Nights",
+    "path": "Abundance",
+    "imagePath": "lib/images/lightcones/warmth.png",
+    "pathImage": "lib/images/.png",
+    "description": "Lighting a light, she glanced at her friend beside her while holding a mug of warm chocolate.\nWatching her read the books and notes she gifted her.\nWatching her expressing a rare smile.\n\nIn cold nights like this, even the tiniest bit of bliss can chase away the chills.",
+    "passive": "Increases the wearer's Max HP by 16%. When using Basic ATK or Skill, restores all allies' HP by an amount equal to 2.0% of their respective Max HP."
+  },
+  {
+    "name": "We Are Wildfire",
+    "path": "Preservation",
+    "imagePath": "lib/images/lightcones/we.png",
+    "pathImage": "lib/images/.png",
+    "description": "She got used to people losing their homes.\nAnd she got used to people losing their lives.\nBut crying alone was useless.\n\n\"Wear this red scarf, and then we shall share each other's pain.\"\n\"We are family. We are Wildfire.\"\n\nThe moment that pair of big hands held her head, she could no longer hold back her tears.",
+    "passive": "At the start of the battle, the DMG dealt to all allies decreases by 8% for 5 turn(s). At the same time, immediately restores HP to all allies equal to 30% of the respective HP difference between the characters' Max HP and current HP."
+  },
+  {
+    "name": "We Will Meet Again",
+    "path": "Nihility",
+    "imagePath": "lib/images/lightcones/wewill.png",
+    "pathImage": "lib/images/.png",
+    "description": "She had once thought it was some sort of program. How else would it never tire?\nBut a program would never actively discard the optimal solution and bypass her trap.\n\n\"Seems like we'll have a war of attrition.\"\nShe yawns.\n\n\"Time to sleep. Organic lifeforms should treasure rest.\"\nThe surroundings dim.\n\nShe suddenly bolts awake, but the residues of data are swept away and destroyed. It all seems like a dream\n— but the taste of defeat is very real.",
+    "passive": "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to 48% of the wearer's ATK to a random enemy that has been attacked."
+  },
+  {
+    "name": "What Is Real?",
+    "path": "Abundance",
+    "imagePath": "lib/images/lightcones/what.png",
+    "pathImage": "lib/images/.png",
+    "description": "\"Suppose if all the clocks are displaying the wrong time...\"\n\"If those bound to promises fulfilled their vows through betrayal...\"\n\"If those who sink into the realm of dreams never truly fell asleep...\"\n\"If the dead return to life, only to discover their names have been stripped...\"\n\n\"If... If...\"\nHe blows out the flame, and in darkness, there is but the eternal ticking of the timepiece.",
+    "passive": "Increases the wearer's Break Effect by 24%. After using their Basic ATK, restore HP for the wearer by an amount equal to 2.0% of their max HP plus 800."
+  },
+  {
+    "name": "Woof! Walk Time!",
+    "path": "Destruction",
+    "imagePath": "lib/images/lightcones/woof.png",
+    "pathImage": "lib/images/.png",
+    "description": "Pity that no one has seen it...\nSeen it screw up its nose and sniff around and dive into an empty path.\n\nPity that no one has seen it...\nSeen it retract its claws, enter the password, and leap into the embraces of freedom.\n\nHas nobody seen it still...?\nA grown dog can now walk itself in space!",
+    "passive": "Increases the wearer's ATK by 10%, and increases their DMG to enemies afflicted with Burn or Bleed by 16%. This also applies to DoT."
+  },
+  {
+    "name": "Worrisome, Blissful",
+    "path": "Hunt",
+    "imagePath": "lib/images/lightcones/worrisome.png",
+    "pathImage": "lib/images/.png",
+    "description": "For a competent IPC professional, \"feeling overwhelmed\" is absolutely not allowed.\nStand tall and take on whatever comes your way, be it burnout or overwork!\nUnless... it's being overwhelmed by \"them.\"\n\n\"Oh, don't get so antsy! I only have two hands!\"\nA girl who just returned home from working overtime is pinned down by a group of fluffy creatures.\nThey may not fully understand her words, simply nuzzling their round heads closer to her palm.\nThe feeling of exhaustion gradually fades from her body, replaced by the warmth and comfort brought by stroking their fur.",
+    "passive": "Increase the wearer's CRIT Rate by 18% and their follow-up attacks' DMG by 30%. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by 12%."
+  }
+]

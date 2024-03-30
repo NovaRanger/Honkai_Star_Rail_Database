@@ -1,0 +1,248 @@
+[
+{
+  "name": "Band of Sizzling Thunder",
+  "twopc": "Increases Lightning DMG by 10%.",
+  "fourpc": "When the wearer uses their Skill, increases the wearer's ATK by 20% for 1 turn(s).",
+  "chest": "lib/images/relics/bac.png",
+  "helmet": "lib/images/relics/bah.png",
+  "boots": "lib/images/relics/bab.png",
+  "gloves": "lib/images/relics/bag.png"
+},
+  {
+    "name": "Champion of Streetwise Boxing",
+    "twopc": "Increases Physical DMG by 10%.",
+    "fourpc": "After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle. This effect can stack up to 5 time(s)",
+    "chest": "lib/images/relics/chc.png",
+    "helmet": "lib/images/relics/chh.png",
+    "boots": "lib/images/relics/chb.png",
+    "gloves": "lib/images/relics/chg.png"
+  },
+  {
+    "name": "Eagle of Twilight Line",
+    "twopc": "Increases Wind DMG by 10%.",
+    "fourpc": "After the wearer uses their Ultimate, their action is Advanced Forward by 25%.",
+    "chest": "lib/images/relics/eac.png",
+    "helmet": "lib/images/relics/eah.png",
+    "boots": "lib/images/relics/eab.png",
+    "gloves": "lib/images/relics/eag.png"
+  },
+  {
+    "name": "Firesmith of Lava-Forging",
+    "twopc": "Increases Fire DMG by 10%.",
+    "fourpc": " Increases the wearer's Skill DMG by 12%. After unleashing Ultimate, increases the wearer's Fire DMG by 12% for the next attack.",
+    "chest": "lib/images/relics/fic.png",
+    "helmet": "lib/images/relics/fih.png",
+    "boots": "lib/images/relics/fib.png",
+    "gloves": "lib/images/relics/fig.png"
+  },
+  {
+    "name": "Genius of Brilliant Stars",
+    "twopc": "Increases Quantum DMG by 10%.",
+    "fourpc": "When the wearer deals DMG to the target enemy, ignores 10% DEF. If the target enemy has Quantum Weakness, the wearer additionally ignores 10% DEF.",
+    "chest": "lib/images/relics/gec.png",
+    "helmet": "lib/images/relics/geh.png",
+    "boots": "lib/images/relics/geb.png",
+    "gloves": "lib/images/relics/geg.png"
+  },
+  {
+    "name": "Guard of Wuthering Snow",
+    "twopc": "Reduces DMG taken by 8%.",
+    "fourpc": "At the beginning of the turn, if the wearer's HP is equal to or less than 50%, restores HP equal to 8% of their Max HP and regenerates 5 Energy.",
+    "chest": "lib/images/relics/guc.png",
+    "helmet": "lib/images/relics/guh.png",
+    "boots": "lib/images/relics/gub.png",
+    "gloves": "lib/images/relics/gug.png"
+  },
+  {
+    "name": "Hunter of Glacial Forest",
+    "twopc": "Increases Ice DMG by 10%.",
+    "fourpc": "After the wearer uses their Ultimate, their CRIT DMG increases by 25% for 2 turn(s).",
+    "chest": "lib/images/relics/huc.png",
+    "helmet": "lib/images/relics/huh.png",
+    "boots": "lib/images/relics/hub.png",
+    "gloves": "lib/images/relics/hug.png"
+  },
+  {
+    "name": "Knight of Purity Palace",
+    "twopc": "Increases DEF by 15%.",
+    "fourpc": "Increases the max DMG that can be absorbed by the Shield created by the wearer by 20%.",
+    "chest": "lib/images/relics/knc.png",
+    "helmet": "lib/images/relics/knh.png",
+    "boots": "lib/images/relics/knb.png",
+    "gloves": "lib/images/relics/kng.png"
+  },
+  {
+    "name": "Longevous Disciple",
+    "twopc": "Increases Max HP by 12%.",
+    "fourpc": "When the wearer is hit or has their HP consumed by an ally or themselves, their CRIT Rate increases by 8% for 2 turn(s) and up to 2 stacks.",
+    "chest": "lib/images/relics/loc.png",
+    "helmet": "lib/images/relics/loh.png",
+    "boots": "lib/images/relics/lob.png",
+    "gloves": "lib/images/relics/log.png"
+  },
+  {
+    "name": "Messenger Traversing Hackerspace",
+    "twopc": "Increases SPD by 6%.",
+    "fourpc": "When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked.",
+    "chest": "lib/images/relics/mec.png",
+    "helmet": "lib/images/relics/meh.png",
+    "boots": "lib/images/relics/meb.png",
+    "gloves": "lib/images/relics/meg.png"
+  },
+  {
+    "name": "Musketeer of Wild Wheat",
+    "twopc": "ATK increases by 12%.",
+    "fourpc": "The wearer's SPD increases by 6% and Basic ATK DMG increases by 10%.",
+    "chest": "lib/images/relics/muc.png",
+    "helmet": "lib/images/relics/muh.png",
+    "boots": "lib/images/relics/mub.png",
+    "gloves": "lib/images/relics/mug.png"
+  },
+  {
+    "name": "Passerby of Wandering Cloud",
+    "twopc": "Increases Outgoing Healing by 10%.",
+    "fourpc": "At the beginning of the battle, immediately regenerates 1 Skill Point.",
+    "chest": "lib/images/relics/pac.png",
+    "helmet": "lib/images/relics/pah.png",
+    "boots": "lib/images/relics/pab.png",
+    "gloves": "lib/images/relics/pag.png"
+  },
+  {
+    "name": "Pioneer Diver of Dead Waters",
+    "twopc": "Increases DMG dealt to enemies with debuff by 12%.",
+    "fourpc": "Increases CRIT Rate by 4%. The wearer deals 8%/12% increased CRIT DMG to enemies with at least 2/3 debuffs. After the wearer inflicts a debuff on enemy targets, the aforementioned effects increase by 100%, lasting for 1 turn(s).",
+    "chest": "lib/images/relics/pic.png",
+    "helmet": "lib/images/relics/pih.png",
+    "boots": "lib/images/relics/pib.png",
+    "gloves": "lib/images/relics/pig.png"
+  },
+  {
+    "name": "Prisoner in Deep Confinement",
+    "twopc": "ATK increases by 12%.",
+    "fourpc": "For every DoT the target enemy is afflicted with, the wearer will ignore 6% of its DEF when dealing DMG to it. This effect is valid for a max of 3 DoTs.",
+    "chest": "lib/images/relics/prc.png",
+    "helmet": "lib/images/relics/prh.png",
+    "boots": "lib/images/relics/prb.png",
+    "gloves": "lib/images/relics/prg.png"
+  },
+  {
+    "name": "The Ashblazing Grand Duke",
+    "twopc": " Increases the DMG dealt by follow-up attacks by 20%.",
+    "fourpc": "When the wearer uses follow-up attacks, increases the wearer's ATK by 6% for every time the follow-up attack deals DMG. This effect can stack up to 8 time(s) and lasts for 3 turn(s). This effect is removed the next time the wearer uses a follow-up attack.",
+    "chest": "lib/images/relics/asc.png",
+    "helmet": "lib/images/relics/ahh.png",
+    "boots": "lib/images/relics/asb.png",
+    "gloves": "lib/images/relics/asg.png"
+  },
+  {
+    "name": "Thief of Shooting Meteor",
+    "twopc": "Increases Break Effect by 16%.",
+    "fourpc": "Increases the wearer's Break Effect by 16%. After the wearer inflicts Weakness Break on an enemy, regenerates 3 Energy.",
+    "chest": "lib/images/relics/thc.png",
+    "helmet": "lib/images/relics/thh.png",
+    "boots": "lib/images/relics/thb.png",
+    "gloves": "lib/images/relics/thg.png"
+  },
+  {
+    "name": "Wastelander of Banditry Desert",
+    "twopc": "Increases Imaginary DMG by 10%.",
+    "fourpc": "When attacking debuffed enemies, the wearer's CRIT Rate increases by 10%, and their CRIT DMG increases by 20% against Imprisoned enemies",
+    "chest": "lib/images/relics/dec.png",
+    "helmet": "lib/images/relics/deh.png",
+    "boots": "lib/images/relics/deb.png",
+    "gloves": "lib/images/relics/deg.png"
+  },
+  {
+    "name": "Watchmaker, Master of Dream Machinations",
+    "twopc": "Increases Break Effect by 16%.",
+    "fourpc": "When the wearer uses their Ultimate on an ally, all allies' Break Effect increases by 30% for 2 turn(s). This effect cannot be stacked.",
+    "chest": "lib/images/relics/wac.png",
+    "helmet": "lib/images/relics/wah.png",
+    "boots": "lib/images/relics/wab.png",
+    "gloves": "lib/images/relics/wag.png"
+  },
+  {
+    "name": "Belobog of the Architects",
+    "twopc": "Increases the wearer's DEF by 15%. When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF.",
+    "chest": "lib/images/relics/wac.png",
+    "rope": "lib/images/relics/ber.png",
+    "sphere": "lib/images/relics/beo.png"
+  },
+  {
+    "name": "Broken Keel",
+    "twopc": "Increases the wearer's Effect RES by 10%. When the wearer's Effect RES is at 30% or higher, all allies' CRIT DMG increases by 10%.",
+    "chest": "lib/images/relics/wac.png",
+    "rope": "lib/images/relics/brr.png",
+    "sphere": "lib/images/relics/bro.png"
+  },
+  {
+    "name": "Celestial Differentiator",
+    "twopc": " Increases the wearer's CRIT DMG by 16%. When the wearer's current CRIT DMG reaches 120% or higher, after entering battle, the wearer's CRIT Rate increases by 60% until the end of their first attack.",
+    "rope": "lib/images/relics/cer.png",
+    "sphere": "lib/images/relics/ceo.png",
+    "chest": "lib/images/relics/wac.png"
+  },
+  {
+    "name": "Firmament Frontline: Glamoth",
+    "twopc": " Increases the wearer's ATK by 12%. When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG.",
+    "chest": "lib/images/relics/wac.png",
+    "rope": "lib/images/relics/fir.png",
+    "sphere": "lib/images/relics/fio.png"
+  },
+  {
+    "name": "Fleet of the Ageless",
+    "twopc": "Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%.",
+    "chest": "lib/images/relics/wac.png",
+    "rope": "lib/images/relics/flr.png",
+    "sphere": "lib/images/relics/flo.png"
+  },
+  {
+    "name": "Inert Salsotto",
+    "twopc": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and follow-up attack DMG increases by 15%.",
+    "rope": "lib/images/relics/inr.png",
+    "sphere": "lib/images/relics/ino.png",
+    "chest": "lib/images/relics/wac.png"
+  },
+  {
+    "name": "Pan-Cosmic Commercial Enterprise",
+    "twopc": "Increases the wearer's Effect Hit Rate by 10%. Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of the current Effect Hit Rate, up to a maximum of 25%.",
+    "rope": "lib/images/relics/par.png",
+    "sphere": "lib/images/relics/pao.png",
+    "chest": "lib/images/relics/wac.png"
+  },
+  {
+    "name": "Penacony, Land of the Dreams",
+    "twopc": "Increases wearer's Energy Regeneration Rate by 5%. Increases DMG by 10% for all other allies that are of the same Type as the wearer.",
+    "rope": "lib/images/relics/per.png",
+    "sphere": "lib/images/relics/peo.png",
+    "chest": "lib/images/relics/wac.png"
+  },
+  {
+    "name": "Rutilant Arena",
+    "twopc": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, the wearer's Basic ATK and Skill DMG increase by 20%.",
+    "rope": "lib/images/relics/rur.png",
+    "sphere": "lib/images/relics/ruo.png",
+    "chest": "lib/images/relics/wac.png"
+  },
+  {
+    "name": "Space Sealing Station",
+    "twopc": "Increases the wearer's ATK by 12%. When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12%.",
+    "rope": "lib/images/relics/spr.png",
+    "sphere": "lib/images/relics/spo.png",
+    "chest": "lib/images/relics/wac.png"
+  },
+  {
+    "name": "Sprightly Vonwacq",
+    "twopc": "Increases the wearer's Energy Regeneration Rate by 5%. When the wearer's SPD reaches 120 or higher, the wearer's action is Advanced Forward by 40% immediately upon entering battle.",
+    "rope": "lib/images/relics/vor.png",
+    "sphere": "lib/images/relics/voo.png",
+    "chest": "lib/images/relics/wac.png"
+  },
+  {
+    "name": "Talia: Kingdom of Banditry",
+    "twopc": "Increases the wearer's Break Effect by 16%. When the wearer's SPD reaches 145 or higher, the wearer's Break Effect increases by an extra 20%.",
+    "chest": "lib/images/relics/wac.png",
+    "rope": "lib/images/relics/tar.png",
+    "sphere": "lib/images/relics/tao.png"
+  }
+]
