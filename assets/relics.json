@@ -164,14 +164,14 @@
   {
     "name": "Belobog of the Architects",
     "twopc": "Increases the wearer's DEF by 15%. When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF.",
-    "chest": "lib/images/relics/wac.png",
+    "chest": "lib/images/relics/beo.png",
     "rope": "lib/images/relics/ber.png",
     "sphere": "lib/images/relics/beo.png"
   },
   {
     "name": "Broken Keel",
     "twopc": "Increases the wearer's Effect RES by 10%. When the wearer's Effect RES is at 30% or higher, all allies' CRIT DMG increases by 10%.",
-    "chest": "lib/images/relics/wac.png",
+    "chest": "lib/images/relics/bro.png",
     "rope": "lib/images/relics/brr.png",
     "sphere": "lib/images/relics/bro.png"
   },
@@ -180,19 +180,19 @@
     "twopc": " Increases the wearer's CRIT DMG by 16%. When the wearer's current CRIT DMG reaches 120% or higher, after entering battle, the wearer's CRIT Rate increases by 60% until the end of their first attack.",
     "rope": "lib/images/relics/cer.png",
     "sphere": "lib/images/relics/ceo.png",
-    "chest": "lib/images/relics/wac.png"
+    "chest": "lib/images/relics/ceo.png"
   },
   {
     "name": "Firmament Frontline: Glamoth",
     "twopc": " Increases the wearer's ATK by 12%. When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG.",
-    "chest": "lib/images/relics/wac.png",
+    "chest": "lib/images/relics/fio.png",
     "rope": "lib/images/relics/fir.png",
     "sphere": "lib/images/relics/fio.png"
   },
   {
     "name": "Fleet of the Ageless",
     "twopc": "Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%.",
-    "chest": "lib/images/relics/wac.png",
+    "chest": "lib/images/relics/flo.png",
     "rope": "lib/images/relics/flr.png",
     "sphere": "lib/images/relics/flo.png"
   },
@@ -201,47 +201,47 @@
     "twopc": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and follow-up attack DMG increases by 15%.",
     "rope": "lib/images/relics/inr.png",
     "sphere": "lib/images/relics/ino.png",
-    "chest": "lib/images/relics/wac.png"
+    "chest": "lib/images/relics/ino.png"
   },
   {
     "name": "Pan-Cosmic Commercial Enterprise",
     "twopc": "Increases the wearer's Effect Hit Rate by 10%. Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of the current Effect Hit Rate, up to a maximum of 25%.",
     "rope": "lib/images/relics/par.png",
     "sphere": "lib/images/relics/pao.png",
-    "chest": "lib/images/relics/wac.png"
+    "chest": "lib/images/relics/pao.png"
   },
   {
     "name": "Penacony, Land of the Dreams",
     "twopc": "Increases wearer's Energy Regeneration Rate by 5%. Increases DMG by 10% for all other allies that are of the same Type as the wearer.",
     "rope": "lib/images/relics/per.png",
     "sphere": "lib/images/relics/peo.png",
-    "chest": "lib/images/relics/wac.png"
+    "chest": "lib/images/relics/peo.png"
   },
   {
     "name": "Rutilant Arena",
     "twopc": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, the wearer's Basic ATK and Skill DMG increase by 20%.",
     "rope": "lib/images/relics/rur.png",
     "sphere": "lib/images/relics/ruo.png",
-    "chest": "lib/images/relics/wac.png"
+    "chest": "lib/images/relics/ruo.png"
   },
   {
     "name": "Space Sealing Station",
     "twopc": "Increases the wearer's ATK by 12%. When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12%.",
     "rope": "lib/images/relics/spr.png",
     "sphere": "lib/images/relics/spo.png",
-    "chest": "lib/images/relics/wac.png"
+    "chest": "lib/images/relics/spo.png"
   },
   {
     "name": "Sprightly Vonwacq",
     "twopc": "Increases the wearer's Energy Regeneration Rate by 5%. When the wearer's SPD reaches 120 or higher, the wearer's action is Advanced Forward by 40% immediately upon entering battle.",
     "rope": "lib/images/relics/vor.png",
     "sphere": "lib/images/relics/voo.png",
-    "chest": "lib/images/relics/wac.png"
+    "chest": "lib/images/relics/voo.png"
   },
   {
     "name": "Talia: Kingdom of Banditry",
     "twopc": "Increases the wearer's Break Effect by 16%. When the wearer's SPD reaches 145 or higher, the wearer's Break Effect increases by an extra 20%.",
-    "chest": "lib/images/relics/wac.png",
+    "chest": "lib/images/relics/tao.png",
     "rope": "lib/images/relics/tar.png",
     "sphere": "lib/images/relics/tao.png"
   }

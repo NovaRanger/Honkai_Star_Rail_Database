@@ -51,22 +51,49 @@ class RelicDetailPage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 8),
-            if (relic.chest != null || relic.sphere != null)
+            if (relic.chest != null || relic.sphere != null || relic.rope != null)
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(relic.chest ?? 'No Chest'),
+                  if (relic.chest != null) Image.asset(relic.chest!),
+                  if (relic.rope != null) Image.asset(relic.rope!),
                 ],
               ),
-            Text(relic.helmet ?? 'No Helmet'),
-            Text(relic.boots ?? 'No Boots'),
-            Text(relic.gloves ?? 'No Gloves'),
+            if (relic.helmet != null)
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  SizedBox(height: 8),
+                  Text('Helmet:'),
+                  Image.asset(relic.helmet!),
+                ],
+              ),
+            if (relic.boots != null)
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  SizedBox(height: 8),
+                  Text('Boots:'),
+                  Image.asset(relic.boots!),
+                ],
+              ),
+            if (relic.gloves != null)
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  SizedBox(height: 8),
+                  Text('Gloves:'),
+                  Image.asset(relic.gloves!),
+                ],
+              ),
           ],
         ),
       ),
     );
   }
 }
+
+
 
 
 
