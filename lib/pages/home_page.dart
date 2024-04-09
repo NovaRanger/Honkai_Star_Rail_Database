@@ -24,20 +24,40 @@ class _HomePageState extends State<HomePage> {
   void navigationToCharacterDetails(BuildContext context, Character character) {
     Navigator.push(
       context,
-      PageRouteBuilder(
-        transitionDuration: Duration(milliseconds: 500),
-        pageBuilder: (_, __, ___) => CharacterDetailPage(character: character),
-        transitionsBuilder: (_, animation, __, child) {
-          return SlideTransition(
-            position: Tween<Offset>(
-              begin: Offset(1, 0),
-              end: Offset.zero,
-            ).animate(animation),
-            child: child,
-          );
-        },
+      MaterialPageRoute(
+        builder: (_) => CharacterDetailPage(character: character),
       ),
     );
+  }
+
+  Character? findCharacterByName(List<Character> characters, String characterName) {
+    return characters.firstWhere((character) => character.name == characterName);
+  }
+
+  void navigateToCharacterByName(BuildContext context, List<Character> characters, String characterName) {
+    Character? targetCharacter = findCharacterByName(characters, characterName);
+
+    if (targetCharacter != null) {
+      navigationToCharacterDetails(context, targetCharacter);
+    } else {
+      showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: const Text('Character Not Found'),
+            content: Text('The character with the name $characterName was not found.'),
+            actions: <Widget>[
+              TextButton(
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+                child: const Text('OK'),
+              ),
+            ],
+          );
+        },
+      );
+    }
   }
 
   @override
@@ -57,7 +77,7 @@ class _HomePageState extends State<HomePage> {
           },
         ),
         title: Text(
-          'DataBase',
+          'DataBank',
           style: TextStyle(color: Colors.grey[900]),
         ),
       ),
@@ -65,7 +85,7 @@ class _HomePageState extends State<HomePage> {
         future: _charactersFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return Center(child: CircularProgressIndicator());
+            return const Center(child: CircularProgressIndicator());
           } else if (snapshot.hasError) {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else {
@@ -78,7 +98,7 @@ class _HomePageState extends State<HomePage> {
                     color: primaryColor,
                     borderRadius: BorderRadius.circular(20),
                   ),
-                  margin: EdgeInsets.symmetric(horizontal: 25),
+                  margin: const EdgeInsets.symmetric(horizontal: 25),
                   padding: const EdgeInsets.all(25),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -86,14 +106,16 @@ class _HomePageState extends State<HomePage> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(
-                            'DataBase',
+                          const Text(
+                            'DataBank',
                             style: TextStyle(fontSize: 28, color: Colors.white),
                           ),
                           const SizedBox(height: 20),
                           MyButton(
                             text: "New Character",
-                            onTap: () {},
+                            onTap: () {
+                              navigateToCharacterByName(context, characters, 'Acheron');
+                            },
                           ),
                         ],
                       ),
@@ -105,8 +127,8 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
                 const SizedBox(height: 25),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 25.0),
+                const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 25.0),
                   child: Text(
                     "Characters",
                     style: TextStyle(
@@ -148,7 +170,7 @@ class _HomePageState extends State<HomePage> {
             Navigator.pushReplacementNamed(context, '/light_cones_grid');
           }
         },
-        items: [
+        items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
@@ -170,5 +192,4 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-
 
