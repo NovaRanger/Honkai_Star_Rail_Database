@@ -15,44 +15,47 @@ class _CharacterDetailPageState extends State<CharacterDetailPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.lightBlueAccent,
         elevation: 0,
         foregroundColor: Colors.grey[900],
       ),
       body: SingleChildScrollView(
-        child: Column(
-          children: [
-            SizedBox(
-              height: 200,
-              child: Image.asset(
-                widget.character.imagePath,
-                fit: BoxFit.cover,
+        child: Container(
+          color: Colors.lightBlueAccent,
+          child: Column(
+            children: [
+              SizedBox(
+                height: 200,
+                child: Image.asset(
+                  widget.character.imagePath,
+                  fit: BoxFit.cover,
+                ),
               ),
-            ),
-            const SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Image.asset(
-                  widget.character.elementImage,
-                  height: 50,
-                ),
-                SizedBox(width: 20),
-                Image.asset(
-                  widget.character.pathImage,
-                  height: 50,
-                ),
-              ],
-            ),
-            SizedBox(height: 20),
-            _buildDropdownList('Basic', widget.character.basic, widget.character.basicImage),
-            _buildDropdownList('Skill', widget.character.skill, widget.character.skillImage),
-            _buildDropdownList('Ultimate', widget.character.ultimate, widget.character.ultimateImage),
-            _buildDropdownList('Technique', widget.character.technique, widget.character.techniqueImage),
-            _buildDropdownList('Talent', widget.character.talent, widget.character.talentImage),
-            _buildDropdownListWithContent('Eidolons', widget.character.eidolonImages, widget.character.eidolonContents),
-            _buildDropdownListWithContent('Ascensions', widget.character.ascensionImages, widget.character.ascensionContents),
-          ],
+              const SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.asset(
+                    widget.character.elementImage,
+                    height: 50,
+                  ),
+                  SizedBox(width: 20),
+                  Image.asset(
+                    widget.character.pathImage,
+                    height: 50,
+                  ),
+                ],
+              ),
+              SizedBox(height: 20),
+              _buildDropdownList('Basic', widget.character.basic, widget.character.basicImage),
+              _buildDropdownList('Skill', widget.character.skill, widget.character.skillImage),
+              _buildDropdownList('Ultimate', widget.character.ultimate, widget.character.ultimateImage),
+              _buildDropdownList('Technique', widget.character.technique, widget.character.techniqueImage),
+              _buildDropdownList('Talent', widget.character.talent, widget.character.talentImage),
+              _buildDropdownListWithContent('Eidolons', widget.character.eidolonImages, widget.character.eidolonContents),
+              _buildDropdownListWithContent('Ascensions', widget.character.ascensionImages, widget.character.ascensionContents),
+            ],
+          ),
         ),
       ),
     );
@@ -75,7 +78,7 @@ class _CharacterDetailPageState extends State<CharacterDetailPage> {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('Content: $content'),
+            Text('$content'),
             SizedBox(height: 8),
             Image.asset(
               imagePath,
@@ -107,7 +110,7 @@ class _CharacterDetailPageState extends State<CharacterDetailPage> {
                 height: 100,
                 width: 100,
               ),
-              Text('Content: ${contents[i]}'),
+              Text('${contents[i]}'),
             ],
           ),
       ],

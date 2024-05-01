@@ -11,6 +11,7 @@ class RelicDetailPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(relic.name),
+        backgroundColor: Colors.lightBlueAccent,
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(16.0),

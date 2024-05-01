@@ -156,6 +156,8 @@ class _HomePageState extends State<HomePage> {
         },
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
+        backgroundColor: Colors.white,
         currentIndex: 0, // Set the current index to reflect the Lightcones page
         selectedItemColor: Colors.blue, // Set the color for the selected item
         unselectedItemColor: Colors.black, // Set the color for the unselected items

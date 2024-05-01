@@ -11,6 +11,7 @@ class LightConesGridViewPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Lightcones'),
       ),
+      backgroundColor: Colors.blueGrey,
       body: FutureBuilder<List<LightCones>>(
         future: fetchLightCones(),
         builder: (context, snapshot) {
@@ -39,20 +40,25 @@ class LightConesGridViewPage extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Card(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Image.asset(
-                          lightcone.imagePath,
-                          height: 100,
+                  child: Container(
+                    child: Card(
+                      child: Container(
+                        color: Colors.black12,
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Image.asset(
+                              lightcone.imagePath,
+                              height: 100,
+                            ),
+                            SizedBox(height: 8),
+                            Text(
+                              lightcone.name,
+                              style: TextStyle(fontSize: 16),
+                            ),
+                          ],
                         ),
-                        SizedBox(height: 8),
-                        Text(
-                          lightcone.name,
-                          style: TextStyle(fontSize: 16),
-                        ),
-                      ],
+                      ),
                     ),
                   ),
                 );
@@ -62,6 +68,8 @@ class LightConesGridViewPage extends StatelessWidget {
         },
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
+        backgroundColor: Colors.white,
         currentIndex: 3, // Set the current index to reflect the Lightcones page
         selectedItemColor: Colors.blue, // Set the color for the selected item
         unselectedItemColor: Colors.black, // Set the color for the unselected items

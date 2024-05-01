@@ -12,6 +12,7 @@ class RelicsGridViewPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Relics'),
       ),
+      backgroundColor: Colors.blueGrey,
       body: FutureBuilder<List<Relics>>(
         future: fetchRelics(),
         builder: (context, snapshot) {
@@ -41,20 +42,23 @@ class RelicsGridViewPage extends StatelessWidget {
                     );
                   },
                   child: Card(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        if (relic.chest != null)
-                          Image.asset(
-                            relic.chest!,
-                            height: 100,
+                    child: Container(
+                      color: Colors.black12,
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          if (relic.chest != null)
+                            Image.asset(
+                              relic.chest!,
+                              height: 100,
+                            ),
+                          SizedBox(height: 8),
+                          Text(
+                            relic.name,
+                            style: TextStyle(fontSize: 16),
                           ),
-                        SizedBox(height: 8),
-                        Text(
-                          relic.name,
-                          style: TextStyle(fontSize: 16),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                 );
@@ -64,6 +68,8 @@ class RelicsGridViewPage extends StatelessWidget {
         },
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
+        backgroundColor: Colors.white,
         currentIndex: 2, // Set the current index to reflect the Lightcones page
         selectedItemColor: Colors.blue, // Set the color for the selected item
         unselectedItemColor: Colors.black, // Set the color for the unselected items

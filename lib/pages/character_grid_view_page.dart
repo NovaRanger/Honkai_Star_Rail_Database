@@ -11,6 +11,7 @@ class CharacterGridViewPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Characters'),
       ),
+      backgroundColor: Colors.blueGrey,
       body: FutureBuilder<List<Character>>(
         future: fetchCharacters(), // Assuming you have a function to fetch characters
         builder: (context, snapshot) {
@@ -54,19 +55,22 @@ class CharacterGridViewPage extends StatelessWidget {
                   },
                   child: Card(
                     // Example of displaying character data in a Card widget
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Image.asset(
-                          character.imagePath,
-                          height: 100,
-                        ),
-                        SizedBox(height: 8),
-                        Text(
-                          character.name,
-                          style: TextStyle(fontSize: 16),
-                        ),
-                      ],
+                    child: Container(
+                      color: Colors.black12,
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset(
+                            character.imagePath,
+                            height: 100,
+                          ),
+                          SizedBox(height: 8),
+                          Text(
+                            character.name,
+                            style: TextStyle(fontSize: 16),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 );
@@ -76,6 +80,8 @@ class CharacterGridViewPage extends StatelessWidget {
         },
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
+        backgroundColor: Colors.white,
         currentIndex: 1, // Set the current index to reflect the Lightcones page
         selectedItemColor: Colors.blue, // Set the color for the selected item
         unselectedItemColor: Colors.black, // Set the color for the unselected items

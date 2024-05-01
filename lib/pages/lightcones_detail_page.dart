@@ -11,6 +11,7 @@ class LightConesDetailPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(lightcone.name),
+        backgroundColor: Colors.lightBlueAccent,
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(16.0),
@@ -28,6 +29,7 @@ class LightConesDetailPage extends StatelessWidget {
             Image.asset(
               lightcone.imagePath,
               height: 200,
+              width: 2000,
             ),
             SizedBox(height: 16),
             Text(
